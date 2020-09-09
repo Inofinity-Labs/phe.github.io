@@ -1,0 +1,171 @@
+.logo-center{
+    display: flex;
+    align-items: center
+}
+
+.img-galary{
+    width: auto;
+    height: 170px;
+}
+
+.img-square {
+    position: relative !important;
+    width: 300px !important;     
+    height: 300px !important;
+    overflow: hidden !important;
+ }
+
+
+.xyz{
+    color:#000;
+}
+.xyz h1{
+    color:#000;
+}
+.xyz h6{
+    color:#000;
+}
+.list-item-custom{
+        background: linear-gradient(-45deg, rgba(255,255,255,9) 0%, rgba(255,255,255,0.7) 100%);
+        padding: 0 20px 0 20px;
+        margin: 1rem 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+        height: 120px;
+        width: 200px;
+        /*clip-path: polygon(15% 0%, 100% 0%, 85% 100%, 0% 100%);*/
+        /*transition: 1s ease;*/
+        border-radius: 20px !important;       
+}
+.list-item-custom:hover{
+    
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.98);
+    transition: 0.5s ease;
+    
+}
+.color5AE531:hover{
+    border-bottom: 10px solid #5AE531;
+}
+.color43B8EC:hover{
+    border-bottom: 10px solid #43B8EC;
+}
+.colorFCD716:hover{
+    border-bottom: 10px solid #FCD716;
+}
+.colorD32769:hover{
+    border-bottom: 10px solid #D32769;
+}
+.list-item-custom a ,.textl{
+    color: #477EEB;
+}
+
+.list-item-custom2{
+    background-color: white;
+    padding: 0 20px 0 20px;
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    height: 100px;
+    width: 200px;
+    /*clip-path: polygon(15% 0%, 100% 0%, 85% 100%, 0% 100%);*/
+    /*transition: 1s ease;*/
+    border-radius: 30px;  
+    vertical-align: middle;     
+}
+.list-item-custom2> label{
+    color: #477EEB;
+}
+.list-item-custom2:hover{
+    
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 1s ease;
+    
+}
+
+.iconboxbg{
+    
+    padding: 1rem;
+    border-radius: 30px;
+    
+}
+.iconboxbg label{
+    color: #26ACE3 !important;
+}
+/* background for categories */
+.service1{
+    background: 
+    linear-gradient(90deg, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0.7) 50%, rgba(255,255,255,0) 100%),
+    url(images/bg/b7.webp);
+    
+}
+.service1 li{
+    color: #000;
+}
+.service2{
+    background: 
+    linear-gradient(90deg, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0.7) 50%, rgba(255,255,255,0) 100%),
+    url(images/bg/b1.webp);
+}
+.service2 li{
+    color: #000;
+}
+.service3{
+    background: 
+    linear-gradient(90deg, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0.7   ) 50%, rgba(255,255,255,0) 100%),
+    url(images/bg/s5.jpg);
+}
+.service3 li{
+    color: #000;
+}
+.service3 h1{
+    color: #000;
+}
+.service4{
+    background: 
+    linear-gradient(90deg, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0.7   ) 50%, rgba(255,255,255,0) 100%),
+    url(images/bg/s4.jpg);
+}
+.service4 li{
+    color: #000;
+}
+.service4 h1{
+    color: #000;
+}
+.fullpage-inner-menu> h5{
+    color:#000 !important;
+}
+.icon-box-cell> label{
+    color: #000 !important;
+}
+
+.fullpage-varrow .fa-angle-down:before {
+    color: #000;
+}
+
+
+/* ----------------------- icon box hover--------------------------------*/
+
+
+.icon-box:hover{
+    
+    color: #26ACE3;
+    border-bottom: 2px solid #26ACE3;
+    transition: 1s;
+    
+}
+
+.design_footer{
+    padding-top: 100px;
+}
+
+.text_white{
+    color:#fff;
+}
