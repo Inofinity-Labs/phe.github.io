@@ -48,10 +48,10 @@
     
 }
 .color5AE531:hover{
-    border-bottom: 10px solid #5AE531;
+    border-bottom: 10px solid #43B8EC;
 }
 .color43B8EC:hover{
-    border-bottom: 10px solid #43B8EC;
+    border-bottom: 10px solid #5AE531;
 }
 .colorFCD716:hover{
     border-bottom: 10px solid #FCD716;
@@ -131,7 +131,7 @@
 .service4{
     background: 
     linear-gradient(90deg, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0.7   ) 50%, rgba(255,255,255,0) 100%),
-    url(images/bg/s4.jpg);
+    url(images/bg/s6.jpg);
 }
 .service4 li{
     color: #000;
@@ -157,9 +157,9 @@
 .icon-box:hover{
     
     color: #26ACE3;
-    border-bottom: 2px solid #26ACE3;
+    /* border-bottom: 2px solid #26ACE3; */
     transition: 1s;
-    
+    transform: scale(0.9);
 }
 
 .design_footer{
@@ -174,3 +174,28 @@
 .li_black{
     color:#000 !important;
 }
+
+.gohome a{
+    color: #000;
+    font-size: x-large;
+}
+.gohome li:before {
+        content: "\f0da"; /* FontAwesome Unicode */
+        font-family: FontAwesome;
+        display: inline-block;
+        margin-left: -1.3em; /* same as padding-left set on li */
+        width: 1.3em; /* same as padding-left set on li */
+}
+
+.gohome li {
+    list-style-type: none;
+}
+
+.gohome .li_sub:before {
+    content: "\f105"; /* FontAwesome Unicode */
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -1.3em; /* same as padding-left set on li */
+    width: 1.3em; /* same as padding-left set on li */
+}
+
