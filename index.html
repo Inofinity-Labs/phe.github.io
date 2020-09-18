@@ -36,7 +36,7 @@
 
     <header class="hamburger-header">
         <a class="hamburger-button white" data-menu-anima="fade-left">
-            <span class="hidden-xs">Menu</span>
+            <span class="hidden-xs"  style="color : var(--main-white)" >Menu</span>
             <i class="fa fa-bars"></i>
         </a>
         <div class="side-menu-fixed hamburger-menu">
@@ -123,10 +123,10 @@
 
                     
 
-                        <div class="row text-center" style="padding: 2rem 0 5rem ;">
+                        <div class="row text-center" style="padding: 2rem 0 5rem ;" id="desktop_section">
                             <div class="icon-list icon-list-2" data-fullpage-anima="fade-left" data-timeline="asc">
                                 <div class="list-item-custom list-item color5AE531 anima">
-                                    <a href="#section-1"><img src="images/logo/hydro.png" width="80px"><br><label class="text-s" style="color: #43B8EC">Hydro Power</label></a>
+                                    <a href="#section-1" id="slide1/1"><img src="images/logo/hydro.png" width="80px"><br><label class="text-s" style="color: #43B8EC">Hydro Power</label></a>
                                 </div>
                                 <div class="list-item list-item-custom color43B8EC anima">
                                     <a href="#section-1/1"><img src="images/logo/windv2.png" width="80px"><br><label class="text-s" style="color: #5AE531">Wind Power</label></a>
@@ -135,11 +135,29 @@
                                     <a href="#section-1/2"><img src="images/logo/biov2.png" width="80px"><br><label class="text-s " style="color: #FCD716">Biomass</label></a>
                                 </div>
                                 <div class="list-item list-item-custom colorD32769 anima">
-                                    <a href="#section-1/3"><img src="images/logo/solar.png" width="80px"><br><label class="text-s " style="color: #D32769">Solar Power</label></a>
+                                    <a href="#section-1/3"><img src="images/logo/solar2.png" width="80px"><br><label class="text-s " style="color: #D32769">Solar Power</label></a>
                                 </div>   
                             </div>
                         </div>
-                    
+
+                        <div class="mobile-main-service">
+                        <div class="row text-center" style="padding: 2rem 0 5rem ;">
+                            
+                                <div class="list-item list-item-custom color43B8E anima">
+                                        <a href="#service1" id="slide1/1"><img src="images/logo/hydro.png" width="80px"><br><label class="text-s" style="color: #43B8EC">Hydro Power</label></a>
+                                </div>
+                                <div class="list-item list-item-custom color5AE531 anima">
+                                        <a href="#service2"><img src="images/logo/windv2.png" width="80px"><br><label class="text-s" style="color: #5AE531">Wind Power</label></a>  
+                                </div>
+                                <div class="list-item list-item-custom colorFCD716 anima">
+                                    <a href="#service3"><img src="images/logo/biov2.png" width="80px"><br><label class="text-s " style="color: #FCD716">Biomass</label></a>
+                                </div>
+                                <div class="list-item list-item-custom colorD32769 anima">
+                                    <a href="#service4"><img src="images/logo/solar.png" width="80px"><br><label class="text-s " style="color: #D32769">Solar Power</label></a>
+                                </div>   
+                            
+                        </div>
+                    </div>
                     <!--/div --> 
                 
                 
@@ -418,7 +436,7 @@
                 </div>
             </div>
         </div-->
-        <div class="section overlay-container white" >
+        <div class="section overlay-container white" id="slide1/1">
             <nav class="fullpage-arrow">
                 <table class="arrow left">
                     <tr>
@@ -433,7 +451,7 @@
                     </tr>
                 </table>
             </nav>
-            <div class="top-area hidden-xs">
+            <div class="top-area hidden-xs" id="top-nav-area">
                 <div class="navbar navbar-inner">
                     <div class="navbar-toggle"><i class="fa fa-bars"></i><span>Menu</span><i class="fa fa-angle-down"></i></div>
                     <div class="collapse navbar-collapse">
@@ -447,12 +465,12 @@
                     </div>
                 </div>
             </div>
-            <div class="slide overlay-container service1" >
+            <div class="slide overlay-container service1" id="service1">
                 
                 
                 <div class="container content box-middle" >
                     <!--h5>HYDRO POWER DEVELOPMENT</h5-->
-                    <h1 class="text-xl text-black" style="color:black;">
+                    <h1 class="text-xl text-black" style="color:var(--main-h1);">
                         HYDRO POWER DEVELOPMENT
                     </h1>
                     <hr class="space s"/>
@@ -464,17 +482,17 @@
                 </div>
                 
             </div>
-            <div class="slide overlay-container service2">
+            <div class="slide overlay-container service2" id="service2">
                 <div class="xyz">
                 <div class="container content box-middle">
                     <!--h5>SERVICES</h5-->
-                    <h1 class="text-xl text-black">
+                    <h1 class="text-xl text-black" style="color:var(--main-h1);"> 
                         WIND POWER DEVELOPMENT
                     </h1>
                     <hr class="space s" />
                     <div class="row">
                         <div class="col-md-7">
-                                    <span>
+                                    <span class="hero-para">
                                         We offer Europe’s Best Quality Small Hydro Power Equipment from Global Hydro Energy GmbH, Austria. PHE has delivered more than 40 units in Sri Lanka since 2003. We are the market leader in Sri Lanka for Supplying Hydro power equipment with European Origin. Our specialty in Hydro energy sector is “Concept to Reality – Water to wire” solutions.
                                     </span>
                         </div>
@@ -543,16 +561,16 @@
                 </div>
                 </div>
             </div>
-            <div class="slide overlay-container service3">
+            <div class="slide overlay-container service3" id="service3">
                 <div class="container content box-middle">
                     <!-- Add here-->
-                    <h1 class="text-xl text-black">
+                    <h1 class="text-xl text-black" style="color:var(--main-h1);">
                         BIOMASS DEVELOPMENT
                     </h1>
                     <hr class="space s" />
                     <div class="row">
                         <div class="col-md-8">
-                                    <span style="color: #000;">
+                                    <span class="hero-para">
                                         In 2018, HOBAS® partnered with another leading GRP manufacturer Flowtite and formed a joint venture Amiblu®. And we are now officially partnered with Amiblu® where the range of our products are now expanded with the partnership of HOBAS® and Flowtite.
                                     </span>
                         </div>
@@ -597,15 +615,15 @@
                     </div>
                 </div>
             </div>
-            <div class="slide overlay-container service4">
+            <div class="slide overlay-container service4" id="service4">
                 <div class="container content box-middle">
-                    <h1 class="text-xl text-black" style="color: black;">
+                    <h1 class="text-xl text-black" style="color:var(--main-h1);">
                         Solar Power
                     </h1>
                     <hr class="space s" />
                     <div class="row">
                         <div class="col-md-8">
-                                    <span style="color: #000;">
+                                    <span class="hero-para">
                                         We provide 24 x 365 Technical support and cater fully fledged after sales service plus maintenance services for operational power plants. Our support for operational plants gives you 360 degree coverage for all your operational and maintenance needs including Supply of spare parts, Control system upgrading and modifications, Generator maintenance and winding cleaning and Turbine and Hydraulic maintenance.
                                     </span>
                         </div>
@@ -691,26 +709,124 @@
 
             <!-- test here -->
 
-            <div class="slide overlay-container service1" >
+            <div class="slide overlay-container service5">
                 
-                
-                <div class="container content box-middle" >
+                <!-- <div class="top-area hidden-xs" style="padding-top: 16px;">
+                    <div class="navbar navbar-inner">
+                        <div class="navbar-toggle"><i class="fa fa-bars"></i><span>Menu</span><i class="fa fa-angle-down"></i></div>
+                        <div class="collapse navbar-collapse">
+                            <ul class="nav navbar-nav nav-center">
+                                <li class="current-active active"><a href="#"><h5>ABC </h5></a></li>.
+                                <li><a href="#"><h5 >ABC</h5></a></li>.
+                                <li><a href="#"><h5>ABC</h5></a></li>.
+                                <li><a href="#"><h5>ABC</h5></a></li>
+    
+                            </ul>
+                        </div>
+                    </div>
+                </div> -->
+                <div class="container content box-middle aboutus text-center" >
+
+                                <div class="tab text-center">
+                                    <button class="tablinks" onclick="openCity(event, 'about')" id="defaultOpen">About US</button>
+                                    <button class="tablinks" onclick="openCity(event, 'why')">Why Choose Us</button>
+                                    <button class="tablinks" onclick="openCity(event, 'member')">Creative Member</button>
+                                    <button class="tablinks" onclick="openCity(event, 'client')">Client Say About Us</button>
+                                </div>
+                                
+                                <div id="about" class="tabcontent">
+                                    <h1 class="text-xl text-black" style="color: var(--main-h1)">
+                                        About US
+                                    </h1>
+                                    <p style="color:black !important;">
+                                        We provide Water to Wire turnkey solutions for Small Hydro power sector in Sri Lanka and overseas. Our scope covers Project Identification, Development and Designing, Pre-feasibility and Feasibility studies, supplying European origin Electro-mechanical hydro power equipment or Turnkey solutions for realizing hydro power projects.    
+                                    </p>
+<br />
+                                    <div class="row" >
+                                        <div class="col-md-6">
+                                            <h1 class="text-xl text-black" style="color: var(--main-h1)">
+                                                HISTORY <br> OF <br> US
+                                            </h1>
+                                        </div>
+                                        <div class="col-md-6" style="height: 120px;">
+                                            <p style="color:black !important;">
+                                                These usually are sophisticated analytical tools that allow you to likeds dissect your portfolio and gain a clear view of your holdings. You can be evaluate your overall asset allocation and sector weightings as well as a uncover concentrated positions, view the stock holdings behind your of mutual funds, measure performance against benchmarks and industrye indexes, and stay up-to-date on the latest news and corporate actionssi relating to your holdings.  
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div id="why" class="tabcontent">
+                                    <h1 class="text-xl text-black" style="color: var(--main-h1)">
+                                        WHY CHOOSE US
+                                    </h1>
+                                    <p style="color:black !important;">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellusei luctus nec ullamcorper mattis, pulvinar dapibus leo. Lorem ipsum and dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ans ullamcorper mattis, pulvinar dapibus leo. 
+                                    </p>
+
+                                </div>
+                                
+                                <div id="member" class="tabcontent">
+                                    <h1 class="text-xl text-black" style="color: var(--main-h1)">
+                                        Creative Member
+                                    </h1>
+                                    <p style="color:black !important;">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus
+                                    </p>
+
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <img src="images/avatar1.png" width="200px" alt="avator" />
+                                            <br/>Member 1
+                                        </div>
+                                        <div class="col-md-4">
+                                            <img src="images/avatar2.png" width="200px" alt="avator" />
+                                            <br/>Member 2
+                                        </div>
+                                        <div class="col-md-4">
+                                            <img src="images/avatar1.png" width="200px" alt="avator" />
+                                            <br/>Member 3
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div id="client" class="tabcontent">
+                                    <h1 class="text-xl text-black" style="color:black;">
+                                        Client Say About Us
+                                    </h1>
+                                    <blockquote>
+                                        Nam ac elit a ante commodo tristique. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibhie euismod tincidunt ut laoreet.
+                                    </blockquote>
+                                    <img src="images/avatar1.png" width="200px" alt="avator" />
+                                    <p>
+                                        John Dea
+                                    </p>
+                                </div>
+  
                     <!--h5>HYDRO POWER DEVELOPMENT</h5-->
-                    <h1 class="text-xl text-black" style="color:black;">
-                        Test Page
+
+                    <!--                    <h1 class="text-xl text-black" style="color:black;">
+                        About US
                     </h1>
                     <hr class="space s"/>
                     
                     <div class="row" >
-                        <div class="col-md-8">
-                                    <p style="color:black !important;">
-                                        We provide Water to Wire turnkey solutions for Small Hydro power sector in Sri Lanka and overseas. Our scope covers Project Identification, Development and Designing, Pre-feasibility and Feasibility studies, supplying European origin Electro-mechanical hydro power equipment or Turnkey solutions for realizing hydro power projects.    
-                                    </p>
+                        <p style="color:black !important;">
+                            We provide Water to Wire turnkey solutions for Small Hydro power sector in Sri Lanka and overseas. Our scope covers Project Identification, Development and Designing, Pre-feasibility and Feasibility studies, supplying European origin Electro-mechanical hydro power equipment or Turnkey solutions for realizing hydro power projects.    
+                        </p>
+
+                        <div class="col-md-6">
+                            <h1 class="text-xl text-black" style="color:black;">
+                                HISTORY <br> OF <br> US
+                            </h1>
                         </div>
-                        <div class="col-md-4" style="height: 120px;">
-                           
+                        <div class="col-md-6" style="height: 120px;">
+                            <p style="color:black !important;">
+                                These usually are sophisticated analytical tools that allow you to likeds dissect your portfolio and gain a clear view of your holdings. You can be evaluate your overall asset allocation and sector weightings as well as a uncover concentrated positions, view the stock holdings behind your of mutual funds, measure performance against benchmarks and industrye indexes, and stay up-to-date on the latest news and corporate actionssi relating to your holdings. Anvestigationes demonstraverunt lectores of legere me arelius quod ii legunt saepius. Claritas est etiam proces antis asaarease resudynamicus, qui sequitur mutationem consue stdynig offi aretudiumlectorutigationes quot saepius.    
+                            </p>
                         </div>
-                    </div>
+                    </div>-->
+
                     
                 </div>
                 
@@ -1173,5 +1289,44 @@
             document.getElementById("include-content").innerHTML = xhttp.responseText; 
         }
     </script>
+
+    <script>
+        //scriot for navbar in about us
+    window.addEventListener("click", navbar);
+    window.addEventListener("load", navbar);
+    function navbar(){
+        var page_name = window.location.href;
+        var n = page_name.search("section-1/4");
+        var id2 = document.getElementById("top-nav-area");
+        if (n > 1){
+        id2.style.display = "none";
+        }else{
+            id2.style.display = "block";
+        }
+    }
+    
+    </script>
+
+<script>
+    //script for tabs
+    function openCity(evt, cityName) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(cityName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+    
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
+    </script>
+
+
 </body>
 </html>
