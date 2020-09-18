@@ -418,3 +418,8 @@
   /* Go from zero to full opacity */
   @keyframes fadeEffect{from{bottom:-50px;opacity:0} 
   to{bottom:0;opacity:1}}
+
+
+  .side-menu li{
+    list-style-type: none;
+  }
