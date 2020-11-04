@@ -48,7 +48,9 @@
     color:#000;
 }
 .list-item-custom{
-        background: linear-gradient(-45deg, rgba(255,255,255,9) 0%, rgba(255,255,255,0.7) 100%);
+        /* background: linear-gradient(-45deg, rgba(255,255,255,9) 0%, rgba(255,255,255,0.7) 100%); */
+        background-color: rgba(255, 255, 255, .15);  
+        backdrop-filter: blur(20px);
         padding: 0 20px 0 20px;
         margin: 1rem 0;
         display: flex;
@@ -80,6 +82,9 @@
 }
 .colorD32769:hover{
     border-bottom: 10px solid #D32769;
+}
+.colorBF8641:hover{
+    border-bottom: 10px solid #BF8641;
 }
 .list-item-custom a ,.textl{
     color: #477EEB;
@@ -164,7 +169,7 @@
 .service5{
      background: 
      linear-gradient(0deg, rgba(255,255,255,0.5) 100%, rgba(0,0,0,0) 0%),
-    url(images/bg/about.jpg); 
+    url(images/bg/inv.jpg); 
 
 
 }
@@ -362,7 +367,7 @@
 
   /* *********************about us **************** */
    .aboutus{
-    margin-top: -50px!important;
+    margin-top: -20px!important;
     
   } 
 
@@ -402,7 +407,7 @@
   /* Style the tab content */
   .tabcontent {
     display: none;
-    padding: 6px 12px;
+    padding: 50px 12px;
     /* border: 1px solid #ccc; */
     border-top: none;
 
@@ -423,3 +428,14 @@
   .side-menu li{
     list-style-type: none;
   }
+
+.ref-pro{
+    padding: 20px;
+    width: 100%;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, .25);  
+    backdrop-filter: blur(60px);
+    border: 3px solid #002533;
+    border-radius: 25px;
+    color: #002533;
+}

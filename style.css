@@ -2218,7 +2218,8 @@ header.side-menu-lateral .mi-menu .sidebar-nav ul ul a, .mi-menu .sidebar-nav li
     top: 0;
     left: 0;
     z-index: 99995;
-    background-color: #FFFFFF;
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(20px);
     border-right: 1px solid #e7e7e7;
     box-shadow: 1px 0 2px rgba(0,0,0,0.05);
 }
