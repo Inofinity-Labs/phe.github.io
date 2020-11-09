@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+.menu {
+
+font-weight: 100;
+background: #efefef;
+width: 150px;
+height: 100%;
+padding-left: 50px;
+position: fixed;
+z-index: 100;
+-webkit-box-shadow: -3px 0px 5px 0px rgba(0,0,0,0.2);
+box-shadow: -3px 0px 5px 0px rgba(0,0,0,0.2);
+right: -130px;
+@include all-transition(0.3s);
+color: #222;
+}
+.menu:hover,.menu:focus
+{
+    transform: translate3d(-130px, 0, 0);
+    animation-timing-function: 1s ease-in;
+}
+.title
+{
+    top:50%;
+    @include vertical-align(absolute);
+    transform: rotate(270deg);
+    left: 10px;
+    font-weight: 800;
+    font-size: 15px;
+
+}
+.na
+{
+    @include vertical-align(absolute);
+font-weight: 100;
+}
+    li
+    {
+            padding-bottom: 30px;
+            list-style-type: none;
+    }
+            a
+            {
+                display: block;
+                text-decoration: none;
+                color: inherit;
+                @include all-transition(0.3s);
+            }
+                a:hover
+                {
+                    color: #aaa;
+                }
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <div class="title">MENU</div>
+        <ul class="nav">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Work</a></li>
+          <li><a href="#">Resources</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+</body>
+</html>
