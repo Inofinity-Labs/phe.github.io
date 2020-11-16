@@ -75,7 +75,14 @@
         xhttp.send();
         document.getElementById("include-content").innerHTML = xhttp.responseText; 
     }
+    function hydro_loadref() {
+        var xhttp = new XMLHttpRequest();
+        xhttp.open("GET", "includes/reference/hydro_ref.html", false);
+        xhttp.send();
+        document.getElementById("include-content").innerHTML = xhttp.responseText; 
+    }
     
+   
 //Wind Power -----------------------------------------------------------------------------
     const wind_xhr = new XMLHttpRequest();
     const wind_container = document.getElementById('wind');
@@ -133,6 +140,12 @@
         document.getElementById("wind").innerHTML = xhttp.responseText; 
     }
 
+    function wind_loadref() {
+        var xhttp = new XMLHttpRequest();
+        xhttp.open("GET", "includes/reference/wind_ref.html", false);
+        xhttp.send();
+        document.getElementById("wind").innerHTML = xhttp.responseText; 
+    }
 //Solar Power -----------------------------------------------------------------------------    
     const solar_xhr = new XMLHttpRequest();
     const solar_container = document.getElementById('solar');
@@ -196,7 +209,12 @@
         xhttp.send();
         document.getElementById("solar").innerHTML = xhttp.responseText; 
     }
-
+    function solar_loadref() {
+        var xhttp = new XMLHttpRequest();
+        xhttp.open("GET", "includes/reference/solar_ref.html", false);
+        xhttp.send();
+        document.getElementById("solar").innerHTML = xhttp.responseText; 
+    }
 //Bio  -----------------------------------------------------------------------------    
     const bio_xhr = new XMLHttpRequest();
     const bio_container = document.getElementById('bio');
@@ -239,5 +257,10 @@
         xhttp.send();
         document.getElementById("bio").innerHTML = xhttp.responseText; 
     }
-
+    function bio_loadref() {
+        var xhttp = new XMLHttpRequest();
+        xhttp.open("GET", "includes/reference/bio_ref.html", false);
+        xhttp.send();
+        document.getElementById("bio").innerHTML = xhttp.responseText; 
+    }
     

@@ -9,11 +9,14 @@
   .content{
       margin-top:60px!important;
   }
-
+  .text-italic{
+    font-style: italic;
+  }
   .hero-para{
       color: var(--main-p);
       font-weight: 600;
       font-size: 16px;
+      font-style: italic; /* text italic in main sections*/
   }
 
   .icon-box-cell> label.text-m{
@@ -75,7 +78,7 @@
     border-bottom: 10px solid #43B8EC;
 }
 .color43B8EC:hover{
-    border-bottom: 10px solid #5AE531;
+    border-bottom: 10px solid #2eca00;
 }
 .colorFCD716:hover{
     border-bottom: 10px solid #FCD716;
@@ -347,13 +350,29 @@
     grid-row: 1 / span 5; */
   }
   /* ------------------------- end image galary -------------------------*/
-  /* animation */
+  /* ------------------------- animation ------------------------- */
   .animate_left{
     position:relative;
     animation:animateleft 3s;
   }
   @keyframes 
-    animateleft{from{bottom:-50px;opacity:0} 
+    animateleft{from{left:-50px;opacity:0} 
+    to{left:0;opacity:1}
+  }
+  .animate_right{
+    position:relative;
+    animation:animateright 3s;
+  }
+  @keyframes 
+    animateright{from{right:-50px;opacity:0} 
+    to{right:0;opacity:1}
+  }
+  .animate_bottom{
+    position:relative;
+    animation:animatebottom 3s;
+  }
+  @keyframes 
+    animatebottom{from{bottom:-50px;opacity:0} 
     to{bottom:0;opacity:1}
   }
 
@@ -392,7 +411,7 @@
     outline: none;
     cursor: pointer;
     padding: 14px 16px;
-    transition: 0.3s;
+    /*transition: 0.3s;*/
     font-size: 17px;
   }
   
@@ -436,7 +455,7 @@
     background-color: rgba(255, 255, 255, .25);  
     backdrop-filter: blur(60px);
     border: 3px solid #002533;
-    border-radius: 25px;
+    border-radius: 50px;
     color: #002533;
 }
 
@@ -445,8 +464,8 @@
 /* Style the tab */
 .people-tab {
     overflow: hidden;
-    background-color: rgba(0, 0, 0, 0.8);  
-    backdrop-filter: blur(20px);
+    background-color: rgba(255, 255, 255, 0.015);  
+    backdrop-filter: blur(10px);
   }
   
   /* Style the buttons inside the tab */
@@ -457,7 +476,7 @@
     outline: none;
     cursor: pointer;
     padding: 14px 16px;
-    transition: 0.3s;
+    
     font-size: 17px;
     width: calc(100% / 6);
     height: 90px;
@@ -470,12 +489,14 @@
   
   /* Change background color of buttons on hover */
   .people-tab button:hover {
-    background-color:rgb(63,169,245);
+    background-color: rgba(63,169,245, 0.5);  
+    backdrop-filter: blur(10px);
   }
   
   /* Create an active/current tablink class */
   .people-tab button.active {
-    background-color: rgb(63,169,245);
+    background-color: rgba(63,169,245, 0.5);  
+    backdrop-filter: blur(10px);
   }
   .people-tab h5{
       font-size: 14px;
@@ -494,12 +515,18 @@
   .people-tabcontent {
     display: none;
     padding: 0px 12px;
-    
-    
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(15px);
     /* text-align: left; */
     color: #fff!important;
   }
+  .people-tablinks .remove-line-height{
+      line-height: 150%;
+  }
+  .remove-line-height:before {content:'';
+    display:block;
+    margin:1em 0;
+    }
   .my-active{display: block;}
 
   .leader-img{
@@ -520,4 +547,48 @@
 
   .svg{
     fill: #26ACE3;
+  }
+
+
+  .contact-info{
+    padding: 5px 5px;
+  }
+
+  .contact-info h5{
+    padding-top: 4px;
+    
+  }
+
+
+  /* Referance Button */
+  .ref-btn{
+    position: absolute;
+    right:5vw;
+    bottom: 1vh;
+    width: 20vw;
+  }
+
+
+  /* --------------- referance table ---------------------*/
+  #referance {
+    border-collapse: collapse;
+    width: 100%;
+    overflow-x: scroll;
+  }
+  
+  #referance td, #referance th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #referance tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #referance tr:hover {background-color: #ddd;}
+  
+  #referance th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #26ACE3;
+    color: white;
   }
