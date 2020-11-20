@@ -478,7 +478,7 @@
     padding: 14px 16px;
     
     font-size: 17px;
-    width: calc(100% / 6);
+    width: calc(100% / 7);
     height: 90px;
     border-right: 2px solid #fff;
   }
@@ -624,7 +624,7 @@
   .about2{
     background: 
     linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.5) 95%, rgba(255,255,255,0.8) 100%),
-    url(images/bg/team.jfif);
+    url(images/bg/team.jpeg);
     
     }
     .about1 li{
@@ -633,7 +633,7 @@
   .about3{
     background: 
     /* linear-gradient(90deg, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0.7) 50%, rgba(255,255,255,0) 100%),
-    */url(images/bg/partner.jpeg); 
+    */url(images/bg/partners.png); 
     
     }
     .about1 li{
