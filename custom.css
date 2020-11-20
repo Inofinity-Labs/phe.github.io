@@ -454,7 +454,7 @@
     font-size: 20px;
     background-color: rgba(255, 255, 255, .25);  
     backdrop-filter: blur(60px);
-    border: 3px solid #002533;
+    border: none;
     border-radius: 50px;
     color: #002533;
 }
@@ -519,7 +519,9 @@
     backdrop-filter: blur(15px);
     /* text-align: left; */
     color: #fff!important;
+    width:100%;
   }
+  
   .people-tablinks .remove-line-height{
       line-height: 150%;
   }
@@ -592,3 +594,77 @@
     background-color: #26ACE3;
     color: white;
   }
+
+
+/* -------------------------------------------------About Us -----------------------------------------*/
+  .about1{
+    /* background:linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.10407913165266103) 87%, rgba(255,255,255,1) 100%),url(images/bg/aboutus.jpeg);
+    background-position:0 100% !important;
+    background-size:50% !important;
+    background-repeat:no-repeat; */
+    
+    background: url(images/bg/aboutus3.png);
+    }
+    .about1 li{
+        color: #000;
+    }
+    /* .about-bg-section{
+      background: url(images/bg/aboutus.jpeg);
+    } */
+
+    /* .about-overlay{
+      margin-top: -10vh;
+      width:100%;
+      height:100%;
+      background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(249,249,249,0.5998774509803921) 35%, rgba(231,231,231,1) 100%);
+    } */
+    .content-custom{
+      margin-top: 15vh;
+    }
+  .about2{
+    background: 
+    linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.5) 95%, rgba(255,255,255,0.8) 100%),
+    url(images/bg/team.jfif);
+    
+    }
+    .about1 li{
+        color: #000;
+    }
+  .about3{
+    background: 
+    /* linear-gradient(90deg, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0.7) 50%, rgba(255,255,255,0) 100%),
+    */url(images/bg/partner.jpeg); 
+    
+    }
+    .about1 li{
+        color: #000;
+    }
+
+.partner{
+  padding: 20px;
+}
+.partner a{
+  color: gray;
+}
+.partner-card{
+  max-height:600px;
+}
+.parter-card-image{
+  max-width:200px;
+  max-height: 40px;
+}
+
+.box-part{
+  background-color: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(20px);
+  border-radius:0;
+  padding:60px 10px;
+  margin:30px 0px;
+}
+
+.partner-card-text{
+  padding-top: 2em;
+}
+.partner-card-more{
+  padding-top: 2em;
+}
