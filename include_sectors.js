@@ -264,3 +264,57 @@
         document.getElementById("bio").innerHTML = xhttp.responseText; 
     }
     
+
+    //Bio  -----------------------------------------------------------------------------    
+    const inv_xhr = new XMLHttpRequest();
+    const inv_container = document.getElementById('inv');
+    inv_xhr.onload = function() {
+        if (this.readyState == 4 && this.status == 200) {
+        inv_container.innerHTML = inv_xhr.responseText;
+        }else{
+            console.warn('Did not reserve');
+        }
+    };
+
+    inv_xhr.open("GET", "includes/inv.html");
+    inv_xhr.send();
+
+    function inv_loadhome(){
+        var xhttp = new XMLHttpRequest();
+        xhttp.open("GET", "includes/inv.html", false);
+        xhttp.send();
+        document.getElementById("inv").innerHTML = xhttp.responseText; 
+    }
+    function inv_diligence() {
+        var xhttp = new XMLHttpRequest();
+        xhttp.open("GET", "includes/inv/diligence.html", false);
+        xhttp.send();
+        document.getElementById("inv").innerHTML = xhttp.responseText; 
+    }
+    function inv_monitoring() {
+        var xhttp = new XMLHttpRequest();
+        xhttp.open("GET", "includes/inv/monitoring.html", false);
+        xhttp.send();
+        document.getElementById("inv").innerHTML = xhttp.responseText; 
+    }
+    function inv_portfolio() {
+        var xhttp = new XMLHttpRequest();
+        xhttp.open("GET", "includes/inv/portfolio.html", false);
+        xhttp.send();
+        document.getElementById("inv").innerHTML = xhttp.responseText; 
+    }
+    function inv_penetration() {
+        var xhttp = new XMLHttpRequest();
+        xhttp.open("GET", "includes/inv/penetration.html", false);
+        xhttp.send();
+        document.getElementById("inv").innerHTML = xhttp.responseText; 
+    }
+    function inv_loadref() {
+        var xhttp = new XMLHttpRequest();
+        xhttp.open("GET", "includes/reference/inv_ref.html", false);
+        xhttp.send();
+        document.getElementById("inv").innerHTML = xhttp.responseText; 
+    }
+
+
+    

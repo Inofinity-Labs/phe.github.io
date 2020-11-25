@@ -472,7 +472,7 @@
         }
 
         //flag to avoid very fast sliding for landscape sliders
-        var slideMoving = false;
+        var slideMoving = true;
 
         var isTouchDevice = navigator.userAgent.match(/(iPhone|iPod|iPad|Android|playbook|silk|BlackBerry|BB10|Windows Phone|Tizen|Bada|webOS|IEMobile|Opera Mini)/);
         var isTouch = (('ontouchstart' in window) || (navigator.msMaxTouchPoints > 0) || (navigator.maxTouchPoints));
@@ -482,7 +482,7 @@
         var isWindowFocused = true;
         var lastScrolledDestiny;
         var lastScrolledSlide;
-        var canScroll = true;
+        var canScroll = flase;
         var scrollings = [];
         var nav;
         var controlPressed;
