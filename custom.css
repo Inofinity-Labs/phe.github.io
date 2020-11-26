@@ -254,6 +254,7 @@
     margin-bottom: -100px;
     margin-left: -20px;
     z-index: 1;
+    padding-top: 30px;
 }
 @media only screen and (max-width: 600px) {
     .goback{
@@ -477,10 +478,9 @@
     outline: none;
     cursor: pointer;
     padding: 14px 16px;
-    
     font-size: 17px;
     width: calc(100% / 7);
-    height: 90px;
+    height: 120px;
     border-right: 2px solid #fff;
   }
 
@@ -526,6 +526,12 @@
   .people-tablinks .remove-line-height{
       line-height: 150%;
   }
+
+  .tab-link-para{
+    color: #424242!important;
+    font-weight: 600;
+  }
+  
   .remove-line-height:before {content:'';
     display:block;
     margin:1em 0;
@@ -634,7 +640,7 @@
   .about3{
     background: 
     /* linear-gradient(90deg, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0.7) 50%, rgba(255,255,255,0) 100%),
-    */url(images/bg/partners.jpg); 
+    */url(images/bg/partner1.jpg); 
     
     }
     .about1 li{
@@ -669,3 +675,6 @@
 .partner-card-more{
   padding-top: 2em;
 } */
+.social-group i{
+  color:#fff!important;
+}
