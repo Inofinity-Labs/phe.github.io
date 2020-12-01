@@ -142,8 +142,8 @@
 }
 .service2{
     background: 
-    linear-gradient(90deg, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0.7) 50%, rgba(255,255,255,0) 100%),
-    url(images/bg/b1.webp);
+    linear-gradient(90deg, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0.5) 50%, rgba(255,255,255,0) 100%),
+    url(images/bg/wind3.jpg);
 }
 .service2 li{
     color: #000;
@@ -545,7 +545,7 @@
   .leader-img img{
     width: auto;
     height: 60vh;
-    padding: 0;
+    padding: 15px 0px;
     margin: 0;
   }
   .leader-content{
