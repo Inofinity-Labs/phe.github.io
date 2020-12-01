@@ -50,6 +50,26 @@
 .xyz h6{
     color:#000;
 }
+.vertical-center {
+  margin-top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.vertical-center-hero {
+  margin-top: 40%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.horizontal-center{
+  margin-left: 50%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+.main-sectors{
+  position: absolute; 
+  bottom: 5vh;
+  width: 100%;
+}
 .list-item-custom{
         /* background: linear-gradient(-45deg, rgba(255,255,255,9) 0%, rgba(255,255,255,0.7) 100%); */
         background-color: rgba(255, 255, 255, 0.15);  
@@ -133,8 +153,10 @@
 .service1{
     background: 
     linear-gradient(90deg, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0.7) 50%, rgba(255,255,255,0) 100%),
-    url(images/bg/hydro.jpg);
-    background-size: auto;
+    url(images/bg/hydro3.jpg);
+    background-size: cover;
+    backdrop-filter: blur(10px);
+
     
 }
 .service1 li{

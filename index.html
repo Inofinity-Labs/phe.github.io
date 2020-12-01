@@ -29,11 +29,6 @@
     <!-- Extra optional content header -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-
-    <!-- data table -->
-    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.22/css/jquery.dataTables.css">
-    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.js"></script>
-
     
 </head>
 <body>
@@ -80,7 +75,7 @@
         <div class="arrow down"><span></span><i class="fa fa-angle-down"></i></div>
     </nav>
     <div id="fullpage-main" data-options="verticalCentered:false" data-offset="30" data-horizonal-arrow-offset="-10">
-        <div class="section overlay-container white" style="background-image:url(images/bg/home2.jpg);background-size: cover!important;">
+        <div class="section overlay-container white" style="background-image:url(images/bg/home2.jpg);background-size: cover!important;background-position: top;">
             <nav class="fullpage-arrow">
                 <table class="arrow left">
                     <tr>
@@ -88,66 +83,49 @@
                         <th><span></span></th>
                     </tr>
                 </table>
-                <!--table class="arrow right">
-                    <tr>
-                        <th><i class="fa fa-angle-right"></i></th>
-                        <th><span></span></th>
-                    </tr>
-                </table-->
+                
             </nav>
             <div class="slide overlay-container">
                 
                     <div class="row">
-                        <!--div class="container text-center" >
-                            <div style="padding: 10vh 3vw 0vh 3vw;">
-                                <img src="images/logov3.png" alt="" width="400px"/>
-                                <hr class="space m">
-                                <hr class="space xs">
-                                <p class="text-bold" style="text-align:left">
-                                    Tincidunt integer eu augue augue nunc elit dolor luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit vehicula ut laoreet acaliquam sitamet
-                                    justo nunc tempor, metus velo placerat scelerisque euismod.Tincidunt integer eu augue augue nunc elit dolor luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit vehicula ut laoreet.
-                                </p>
-                                <hr class="space m">
-                                <hr class="space xs">
-                            </div>
-                        </div-->
 
-                        <div class="col-md-6 text-center" style="padding-top: 10vh;">
-                            <div style="padding: 10vh 3vw 0vh 3vw;">
+                        <div class="col-md-6 text-center">
+                            <div class="vertical-center-hero">
                                 <img src="images/logov2.png" alt="" width="400px"/>
-                                <hr class="space m">
-                                <!-- <hr class="space xs"> -->
-                                <p class="text-bold" style="text-align:left; color:#fff !important;">
-                                    With more than a decade long experience and a dream of a cleaner and a greener world PHE strives  on harnessing  green energy sources  to contribute towards the development of a sustainable and greener society.
-                                </p>
-                                
-                                <hr class="space xs">
                             </div>
-                            <div class="col-md-6"></div>
                         </div>
+
+                        <div class="col-md-6 text-center">
+                            <div class="vertical-center-hero">
+                            <p class="text-bold" style="text-align:left; color:#fff !important;">
+                                With more than a decade long experience and a dream of a cleaner and a greener world PHE strives  on harnessing  green energy sources  to contribute towards the development of a sustainable and greener society.
+                            </p>
+                            </div>
+                        </div>
+
                     </div>
 
                     
 
-                        <div class="row text-center" style="padding: 5vh 0 5rem ;" id="desktop_section">
-                            <div class="icon-list icon-list-2" data-fullpage-anima="fade-left" data-timeline="asc">
-                                <div class="list-item-custom list-item color5AE531 anima">
-                                    <a href="#section-1" ><img src="images/logo/hydro.png" width="80px"><br><label class="text-s" style="color: #43B8EC">Hydro Power</label></a>
-                                </div>
-                                <div class="list-item list-item-custom color43B8EC anima">
-                                    <a href="#section-1/1"><img src="images/logo/windv2.png" width="80px"><br><label class="text-s" style="color: #2eca00">Wind Power</label></a>
-                                </div>
-                                <div class="list-item list-item-custom colorFCD716 anima">
-                                    <a href="#section-1/2"><img src="images/logo/biov2.png" width="80px"><br><label class="text-s " style="color: #FCD716">Biomass</label></a>
-                                </div>
-                                <div class="list-item list-item-custom colorD32769 anima">
-                                    <a href="#section-1/3"><img src="images/logo/solar3.png" width="80px"><br><label class="text-s " style="color: #D32769">Solar Power</label></a>
-                                </div>   
-                                <div class="list-item list-item-custom colorBF8641 anima">
-                                    <a href="#section-1/4"><img src="images/logo/inv.png" width="80px"><br><label class="text-s " style="color: #BF8641">Invesment Mgt.</label></a>
-                                </div>  
+                    <div class="row text-center horizontal-center main-sectors" id="desktop_section">
+                        <div class="icon-list icon-list-2" data-fullpage-anima="fade-left" data-timeline="asc">
+                            <div class="list-item-custom list-item color5AE531 anima">
+                                <a href="#section-1" ><img src="images/logo/hydro.png" width="80px"><br><label class="text-s" style="color: #43B8EC">Hydro Power</label></a>
                             </div>
+                            <div class="list-item list-item-custom color43B8EC anima">
+                                <a href="#section-1/1"><img src="images/logo/windv2.png" width="80px"><br><label class="text-s" style="color: #2eca00">Wind Power</label></a>
+                            </div>
+                            <div class="list-item list-item-custom colorFCD716 anima">
+                                <a href="#section-1/2"><img src="images/logo/biov2.png" width="80px"><br><label class="text-s " style="color: #FCD716">Biomass</label></a>
+                            </div>
+                            <div class="list-item list-item-custom colorD32769 anima">
+                                <a href="#section-1/3"><img src="images/logo/solar3.png" width="80px"><br><label class="text-s " style="color: #D32769">Solar Power</label></a>
+                            </div>   
+                            <div class="list-item list-item-custom colorBF8641 anima">
+                                <a href="#section-1/4"><img src="images/logo/inv.png" width="80px"><br><label class="text-s " style="color: #BF8641">Invesment Mgt.</label></a>
+                            </div>  
                         </div>
+                    </div>
 
                         <div class="mobile-main-service">
                             <div class="row text-center" style="padding: 2rem 0 5rem ;">
@@ -170,15 +148,6 @@
                                 
                             </div>
                         </div>
-                    <!--/div --> 
-                
-                
-                        <!--div class="col-md-6" style="padding-right: 100px; padding-left: 50px;">
-                        </div-->
-                        
-                        
-                        
-                    
                 
             </div>
             <!--div class="slide overlay-container">
