@@ -10,7 +10,9 @@
     <title>PHE</title>
     <meta name="description" content="Multipurpose fullPage and fullscreen HTML5 and CSS3 template based on the alvarotrigo.com's plugin.">
     <script src="scripts/jquery.min.js"></script>
-    <link rel="stylesheet" href="scripts/bootstrap/css/bootstrap.css">
+    
+    <link rel="stylesheet" href="scripts/bootstrap/css/bootstrap.css"> 
+    
     <script src="scripts/script.js"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="scripts/magnific-popup.css">
@@ -35,7 +37,33 @@
     <!--Pre Loader-->
     <div id="preloader"></div>
     <!--End Pre Loader-->
-    <header class="hamburger-header">
+    <!-- ----------------New Side Menu ---------------- -->
+<div class="side_hmenu">
+    <div class="title_hmenu">MENU</div>
+    <div class="top-area">
+      <a class="brand" href="index.html">
+          <img src="images/logov2.png" alt="logo">
+      </a>
+  </div>
+        <nav class="nav sidebar-nav scroll-content">
+          <ul class="side-menu" id="fullpage-menu">
+              <li><a href=""><i class="im-home"></i> Home</a></li>
+              <li><a href=""><i class="im-building"></i> Main Sectors</a></li>
+              <li><a href=""><i class="im-business-man"></i> Aboutus</a></li>
+              <li><a href=""><i class="im-email"></i> Contact US</a></li>
+          </ul>
+      </nav>
+      <div class="bottom-area">
+                  
+        <div class="social-group footer-center">
+            <a target="_blank" href="#"><i class="fa fa-facebook"></i></a>
+            <a target="_blank" href="#"><i class="fa fa-linkedin"></i></a>
+        </div>
+        <p style="text-align: center;">All rights reserved. </p>
+      </div>
+  </div>
+  <!-- ----------------END New Side Menu ---------------- -->
+    <!-- <header class="hamburger-header">
         <a class="hamburger-button white" data-menu-anima="fade-left">
             <span class="hidden-xs"  style="color : var(--main-white)">Menu</span>
             <i class="fa fa-bars"></i>
@@ -55,9 +83,7 @@
                         <li><a href=""><i class="im-business-man"></i> Aboutus</a></li>
                         <li><a href=""><i class="im-email"></i> Contact US</a></li>
                         
-                        <!--
-                        <li><a href=""><i class="im-calendar-4"></i> Latest Projects</a></li>
-                        <li><a href=""><i class="im-email"></i> Contacts</a></li> -->
+                      
                     </ul>
                 </nav>
             </aside>
@@ -70,7 +96,7 @@
                 <p>All rights reserved. </p>
             </div>
         </div>
-    </header>
+    </header> -->
     <nav class="fullpage-varrow white">
         <div class="arrow down"><span></span><i class="fa fa-angle-down"></i></div>
     </nav>
@@ -1034,7 +1060,6 @@
     // Get the element with id="defaultOpen" and click on it
    //document.getElementById("defaultOpen").click();
     </script>
-<script data-jsd-embedded data-key="91ef6003-882c-4b73-892e-4f0069d54f32" data-base-url="https://jsd-widget.atlassian.com" src="https://jsd-widget.atlassian.com/assets/embed.js"></script>
 
 
 <script>
@@ -1053,6 +1078,29 @@
     }
     </script>
 
+
+
+<script>
+    var slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+</script>
 
 
 </body>

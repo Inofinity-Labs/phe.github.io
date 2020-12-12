@@ -1,130 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>CSS clip-path Property</title>
-    <style>
-      html {
-        font-size: 12px;
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-          Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-      }
-      section {
-        background-color: #222;
-        padding: 0;
-        margin: 0;
-        width: 100%;
-        height: 400px;
-        display: flex;
-        flex-direction: row;
-        justify-content: start;
-        overflow-x: hidden;
-      }
-      section > img {
-        flex-basis: 60%;
-        object-fit: cover;
-        margin: 0;
-        position: relative;
-        clip-path: polygon(
-          20% 0%,
-          100% 0%,
-          80% 50%,
-          100% 100%,
-          20% 100%,
-          0% 50%
-        );
-      }
-      section > img:last-child {
-        margin-left: -10%;
-      }
-
-      /****
-      Nav demo
-      ****/
-      nav {
-        background-color: hsl(220, 80%, 60%);
-        padding: 0;
-        margin: 1rem 0;
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: start;
-        align-items: center;
-      }
-      nav > a {
-        background-color: hsl(220, 80%, 50%);
-        color: #fff;
-        text-decoration: none;
-        font-size: 2rem;
-        font-weight: 100;
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-          Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-        line-height: 3rem;
-        padding: 0.8rem 5rem;
-        margin-left: -2rem;
-        transition: all 0.2s linear;
-        clip-path: polygon(20% 0%, 100% 0%, 80% 100%, 0% 100%);
-      }
-      nav > a:first-child {
-        margin-left: 0;
-      }
-      nav > a:active,
-      nav > a:hover,
-      nav > a:focus {
-        padding-top: 0rem;
-        border-top: 0.8rem solid #fff;
-        padding-bottom: 0rem;
-        border-bottom: 0.8rem solid #fff;
-      }
-    </style>
-  </head>
-  <body>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="scripts/jquery.min.js"></script>
     
-    <section>
-      <img
-        src="https://picsum.photos/id/237/600/400"
-        alt="picsum photo 237"
-      /><img
-        src="https://picsum.photos/id/127/600/400"
-        alt="picsum photo 222"
-      />
-    </section>
-    <!--
-      clip-path: none
-                url(svg image clip path like "shape.svg#myclip")
-                margin-box
-                padding-box
-                border-box
-                content-box
-                fill-box
-                stroke-box
-                view-box
-                inset(100px 50px)
-                circle( 100px at 50px 50px)
-                ellipse(100px 200px at 20% 40%)
-                polygon(pair, pair, pair, pair, ...);
-                path("an svg path string")
-      
-    -->
-    <nav>
-      <a href="#">Page</a>
-      <a href="#">Link</a>
-      <a href="#">Page</a>
-      <a href="#">Link</a>
-      <a href="#">Page</a>
+    <link rel="stylesheet" href="scripts/bootstrap/css/bootstrap.css"> 
+    
+    <script src="scripts/script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="scripts/magnific-popup.css">
+    <link rel="stylesheet" href="scripts/jquery.fullPage.css">
+    <link rel="stylesheet" href="scripts/flexslider/flexslider.css">
+    <link rel="stylesheet" href='scripts/social.stream.css'>
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/content-box.css">
+    <link rel="stylesheet" href="css/image-box.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href='scripts/php/contact-form.css'>
+    <link rel="stylesheet" href="skin.css">
+    <link rel="icon" href="images/logo/logo.png">
+    <link rel="stylesheet" href="custom.css">
+    
+    
+ 
+    <!-- Extra optional content header -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    
+</head>
+<body style="background:url(images/bg/b4.jpg)">
+<!-- ----------------New Side Menu ---------------- -->
+<div class="side_hmenu">
+  <div class="title_hmenu">MENU</div>
+  <div class="top-area">
+    <a class="brand" href="index.html">
+        <img src="images/logov2.png" alt="logo">
+    </a>
+</div>
+      <nav class="nav sidebar-nav scroll-content">
+        <ul class="side-menu" id="fullpage-menu">
+            <li><a href=""><i class="im-home"></i> Home</a></li>
+            <li><a href=""><i class="im-building"></i> Main Sectors</a></li>
+            <li><a href=""><i class="im-business-man"></i> Aboutus</a></li>
+            <li><a href=""><i class="im-email"></i> Contact US</a></li>
+        </ul>
     </nav>
-    <svg width="200px" height="200px" viewBox="0 0 100 87">
-        <clipPath id="clipTriangleUp">
-           <polygon points="0 87,100 87,50 0"/>
-        </clipPath>
-        <a id="svgtriangle"
-           xlink:href="#portfolioModal3" class="portfolio-link">
-           <image clip-path=" polygon(25% 0, 100% 0, 75% 100%, 0 99%)" preserveAspectRatio="none"
-                  width="100%" height="100%"
-                  xlink:href="http://placehold.it/1749x1510"/>
-         </a>
-     </svg>
+    <div class="bottom-area">
+                
+      <div class="social-group footer-center">
+          <a target="_blank" href="#"><i class="fa fa-facebook"></i></a>
+          <a target="_blank" href="#"><i class="fa fa-linkedin"></i></a>
+      </div>
+      <p style="text-align: center;">All rights reserved. </p>
+    </div>
+</div>
+<!-- ----------------END New Side Menu ---------------- -->
+
+
+    
+<footer class="footer-base">
+  <link rel="stylesheet" href="scripts/iconsmind/solid-icons.min.css">
+  <script src="scripts/imagesloaded.min.js"></script>
+  <script async src="scripts/bootstrap/js/bootstrap.min.js"></script>
+  <script src="scripts/bootstrap/js/bootstrap.popover.min.js"></script>
+  <script src="scripts/jquery.magnific-popup.min.js"></script>
+  <script type="text/javascript" async src='scripts/php/contact-form.js'></script>
+  <script src="scripts/flexslider/jquery.flexslider-min.js"></script>
+  <script src="scripts/jquery.fullPage.min.js"></script>
+  <script src="scripts/jquery.progress-counter.js"></script>
+  <script src="scripts/jquery.twbsPagination.min.js"></script>
+  <script src='scripts/social.stream.min.js'></script>
+  <script src='scripts/isotope.min.js'></script>
+  <script src="scripts/jquery.tab-accordion.js"></script>
+  <script src='https://maps.googleapis.com/maps/api/js?sensor=false&key=AIzaSyCp69VyBGUlCdAAsfgcRvf3Pg57B6vNHd8'></script>
+  <script src='scripts/google.maps.min.js'></script>
+</footer>
   </body>
 </html>
+
