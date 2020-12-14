@@ -6,6 +6,19 @@
     --main-white: #e6e6e6;
   }
 
+  @font-face {
+    font-family: Snell Roundhand;
+    src: url('css/fonts/SnellRoundhand-BoldScript.otf');
+  }
+  .hero-text{
+    font-family: 'Snell Roundhand';
+    font-size: 30px;
+    display: inline-block; 
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.15);  
+    backdrop-filter: blur(50px);
+    border-radius: 10px;
+  }
   .content{
       margin-top:60px!important;
   }
@@ -153,7 +166,7 @@
 .service1{
     background: 
     linear-gradient(90deg, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0.7) 50%, rgba(255,255,255,0) 100%),
-    url(images/bg/hydro3.jpg);
+    url(images/bg/hydro4.jpg);
     background-size: cover;
     backdrop-filter: blur(10px);
 
@@ -242,6 +255,7 @@
 }
 .gohome{
     min-height: 60vh;
+    margin-left: 16px;
 }
 .gohome a{
     color: #000;
@@ -573,9 +587,11 @@
   .leader-content{
     text-align: left;
     padding-top : 15vh;
-
   }
 
+  .leader-content .initial-letter{
+    font-size: 35px;
+  }
   .svg{
     fill: #26ACE3;
   }
@@ -718,6 +734,23 @@
 .images img{
   height: 100%;
   width: 100%;
+}
+/* Fading animation */
+#fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 3s;
+  animation-name: fade;
+  animation-duration: 3s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
 }
 
 /*******************         Side Menu        ***************************************************/

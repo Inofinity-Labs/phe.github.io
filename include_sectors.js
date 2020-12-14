@@ -321,7 +321,7 @@
 
     var indexValue = 0;
     function slideShow(){
-      setTimeout(slideShow, 2500);
+      setTimeout(slideShow, 2000);
       var x;
       const img = document.getElementsByClassName("slide-img");
       for(x = 0; x < img.length; x++){
