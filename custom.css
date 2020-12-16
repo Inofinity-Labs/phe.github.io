@@ -69,7 +69,7 @@
   transform: translateY(-50%);
 }
 .vertical-center-hero {
-  margin-top: 40%;
+  margin-top: 20%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
@@ -116,8 +116,8 @@
 .colorFCD716:hover{
     border-bottom: 10px solid #FCD716;
 }
-.colorD32769:hover{
-    border-bottom: 10px solid #D32769;
+.colorCCCC00:hover{
+    border-bottom: 10px solid #CCCC00;
 }
 .colorBF8641:hover{
     border-bottom: 10px solid #BF8641;
@@ -166,7 +166,7 @@
 .service1{
     background: 
     linear-gradient(90deg, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0.7) 50%, rgba(255,255,255,0) 100%),
-    url(images/bg/hydro4.jpg);
+    url(images/bg/hydro.jpg);
     background-size: cover;
     backdrop-filter: blur(10px);
 
@@ -207,8 +207,8 @@
 }
 .service5{
      background: 
-     linear-gradient(0deg, rgba(255,255,255,0.5) 100%, rgba(0,0,0,0) 0%),
-    url(images/bg/inv.jpg); 
+     linear-gradient(90deg, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0.7   ) 50%, rgba(255,255,255,0) 100%),
+     url(images/bg/inv.jpg); 
 
 
 }
@@ -224,7 +224,17 @@
 .icon-box-cell> label{
     color: #000 !important;
 }
-
+.icon-box-cell{
+    width: 50px;
+    height:100px;}
+    
+.icon-box-cell i{
+  background-color: rgba(255, 255, 255, .4);  
+    backdrop-filter: blur(20px);
+    padding: 10px;
+    border-radius: 10px;
+    
+}
 .fullpage-varrow .fa-angle-down:before {
     color: #000;
 }
@@ -678,7 +688,7 @@
   .about3{
     background: 
     /* linear-gradient(90deg, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0.7) 50%, rgba(255,255,255,0) 100%),
-    */url(images/bg/partner1.jpg); 
+    */url(images/bg/partner.jpg); 
     
     }
     .about1 li{
@@ -698,7 +708,8 @@
   max-width:200px;
   max-height: 40px;
 }
-
+.partner-global{transform: scale(1.3);}
+.partner-amiblu{transform: scale(0.8);}
 .box-part{
   background-color: rgba(255, 255, 255, 0.4);
   backdrop-filter: blur(20px);
@@ -726,6 +737,7 @@
   width: 100%;
   overflow: hidden;
   box-shadow: 1px 1px 15px rgba(0,0,0,0.4);
+  border-radius: 25px;
 }
 .content .images{
   height: 100%;
@@ -735,6 +747,7 @@
   height: 100%;
   width: 100%;
 }
+
 /* Fading animation */
 #fade {
   -webkit-animation-name: fade;
@@ -744,13 +757,19 @@
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+  0%, 25%, 100%{left: 0}
+    
+    30%, 55%{left: -100%}
+    
+    60%, 85%{left: -200%}
 }
 
 @keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+  0%, 25%, 100%{left: 0}
+    
+    30%, 55%{left: -100%}
+    
+    60%, 85%{left: -200%}
 }
 
 /*******************         Side Menu        ***************************************************/
@@ -804,3 +823,5 @@
 .side_hmenu .nav li a:hover {
   color: #aaa;
 }
+ /*                      SLider *********************************************************** */
+ 
