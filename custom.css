@@ -7,16 +7,16 @@
   }
 
   @font-face {
-    font-family: Snell Roundhand;
-    src: url('css/fonts/SnellRoundhand-BoldScript.otf');
+    font-family: Raleway;
+    src: url('css/fonts/Raleway-VariableFont_wght.ttf');
   }
   .hero-text{
-    font-family: 'Snell Roundhand';
-    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 35px;
     display: inline-block; 
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.15);  
-    backdrop-filter: blur(50px);
+    
     border-radius: 10px;
   }
   .content{
@@ -28,7 +28,7 @@
   .hero-para{
       color: var(--main-p);
       font-weight: 600;
-      font-size: 16px;
+      font-size: 18px;
       font-style: italic; /* text italic in main sections*/
   }
 
@@ -85,8 +85,8 @@
 }
 .list-item-custom{
         /* background: linear-gradient(-45deg, rgba(255,255,255,9) 0%, rgba(255,255,255,0.7) 100%); */
-        background-color: rgba(255, 255, 255, 0.15);  
-        backdrop-filter: blur(10px);
+        background-color: rgba(41, 41, 41, 0.4);  
+        backdrop-filter: blur(50px);
         padding: 0 20px 0 20px;
         margin: 1rem 0;
         display: flex;
@@ -177,8 +177,8 @@
 }
 .service2{
     background: 
-    linear-gradient(90deg, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0.5) 50%, rgba(255,255,255,0) 100%),
-    url(images/bg/wind3.jpg);
+    linear-gradient(90deg, rgba(255,255,255,0.4) 0%, rgba(255,255,255,0.3) 50%, rgba(255,255,255,0) 100%),
+    url(images/bg/wind4.jpg);
 }
 .service2 li{
     color: #000;
@@ -825,3 +825,8 @@
 }
  /*                      SLider *********************************************************** */
  
+
+ .ref-container{
+  position: absolute;
+  top: 10vh;
+ }
