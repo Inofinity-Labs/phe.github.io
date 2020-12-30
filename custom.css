@@ -857,6 +857,7 @@
 .container-slider {
   overflow: hidden;
   width: 600px;
+  height: 300px;
   margin-left: auto;
   border-radius: 20px;
 }
