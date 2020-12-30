@@ -1,6 +1,6 @@
 :root {
     --main-h1: #002533;
-    --main-p: #161f21;  
+    --main-p: #161f21;
     --main-a:  #043c52;
     --main-pure-white: #fff;
     --main-white: #e6e6e6;
@@ -14,9 +14,9 @@
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 35px;
-    display: inline-block; 
+    display: inline-block;
     padding: 20px;
-    
+
     border-radius: 10px;
   }
   .content{
@@ -48,7 +48,7 @@
 
 .img-square {
     position: relative !important;
-    width: 300px !important;     
+    width: 300px !important;
     height: 300px !important;
     overflow: hidden !important;
  }
@@ -78,13 +78,13 @@
   transform: translateX(-50%);
 }
 .main-sectors{
-  position: absolute; 
+  position: absolute;
   bottom: 5vh;
   width: 100%;
 }
 .list-item-custom{
         /* background: linear-gradient(-45deg, rgba(255,255,255,9) 0%, rgba(255,255,255,0.7) 100%); */
-        background-color: rgba(41, 41, 41, 0.4);  
+        background-color: rgba(41, 41, 41, 0.4);
         backdrop-filter: blur(50px);
         padding: 0 20px 0 20px;
         margin: 1rem 0;
@@ -96,15 +96,15 @@
         width: 200px;
         /*clip-path: polygon(15% 0%, 100% 0%, 85% 100%, 0% 100%);*/
         /*transition: 1s ease;*/
-        border-radius: 20px !important;       
+        border-radius: 20px !important;
 }
 .list-item-custom:hover{
-    
+
     -webkit-transform: scale(0.8);
     -ms-transform: scale(0.8);
     transform: scale(0.98);
     transition: 0.5s ease;
-    
+
 }
 .color5AE531:hover{
     border-bottom: 10px solid #43B8EC;
@@ -115,11 +115,11 @@
 .colorFCD716:hover{
     border-bottom: 10px solid #FCD716;
 }
-.colorCCCC00:hover{
-    border-bottom: 10px solid #CCCC00;
+.color33D266:hover{
+    border-bottom: 10px solid #33D266;
 }
-.colorBF8641:hover{
-    border-bottom: 10px solid #BF8641;
+.colorfac708:hover{
+    border-bottom: 10px solid #fac708;
 }
 .list-item-custom a ,.textl{
     color: #477EEB;
@@ -137,45 +137,45 @@
     width: 200px;
     /*clip-path: polygon(15% 0%, 100% 0%, 85% 100%, 0% 100%);*/
     /*transition: 1s ease;*/
-    border-radius: 30px;  
-    vertical-align: middle;     
+    border-radius: 30px;
+    vertical-align: middle;
 }
 .list-item-custom2> label{
     color: #477EEB;
 }
 .list-item-custom2:hover{
-    
+
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
     transition: 1s ease;
-    
+
 }
 
 .iconboxbg{
-    
+
     padding: 1rem;
     border-radius: 30px;
-    
+
 }
 .iconboxbg label{
     color: #26ACE3 !important;
 }
 /* background for categories */
 .service1{
-    background: 
+    background:
     linear-gradient(90deg, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0.7) 50%, rgba(255,255,255,0) 100%),
     url(images/bg/hydro.jpg);
     background-size: cover;
     backdrop-filter: blur(10px);
 
-    
+
 }
 .service1 li{
     color: #000;
 }
 .service2{
-    background: 
+    background:
     linear-gradient(90deg, rgba(255,255,255,0.4) 0%, rgba(255,255,255,0.3) 50%, rgba(255,255,255,0) 100%),
     url(images/bg/wind4.jpg);
 }
@@ -183,7 +183,7 @@
     color: #000;
 }
 .service3{
-    background: 
+    background:
     linear-gradient(90deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.4) 50%, rgba(255,255,255,0) 100%),
     url(images/bg/s5.jpg);
 }
@@ -194,7 +194,7 @@
     color: #000;
 }
 .service4{
-    background: 
+    background:
     linear-gradient(90deg, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0.5   ) 50%, rgba(255,255,255,0) 100%),
     url(images/bg/solar.jpg);
 }
@@ -205,9 +205,9 @@
     color: #000;
 }
 .service5{
-     background: 
+     background:
      linear-gradient(90deg, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0.7   ) 50%, rgba(255,255,255,0) 100%),
-     url(images/bg/inv.jpg); 
+     url(images/bg/inv.jpg);
 
 
 }
@@ -226,13 +226,13 @@
 .icon-box-cell{
     width: 50px;
     height:100px;}
-    
+
 .icon-box-cell i{
-  background-color: rgba(255, 255, 255, .4);  
+  background-color: rgba(255, 255, 255, .4);
     backdrop-filter: blur(20px);
     padding: 10px;
     border-radius: 10px;
-    
+
 }
 .fullpage-varrow .fa-angle-down:before {
     color: #000;
@@ -243,7 +243,7 @@
 
 
 .icon-box:hover{
-    
+
     color: #26ACE3;
     /* border-bottom: 2px solid #26ACE3; */
     transition: 1s;
@@ -301,6 +301,14 @@
     z-index: 1;
     padding-top: 30px;
 }
+.ref-back h3{display: inline;}
+.ref-back{
+  position: absolute;
+  top: -26vh;
+  display: inline;
+  
+}
+
 @media only screen and (max-width: 600px) {
     .goback{
         margin-bottom: -150px;
@@ -319,7 +327,9 @@
     text-align: left !important;
 }
 }
-
+.ref-back{
+  margin-top: 50px;
+}
 
 
 .mobile-main-service{
@@ -344,7 +354,7 @@
         width: 200px;
         justify-content: center;
         justify-items: center;
-        border-radius: 20px !important; 
+        border-radius: 20px !important;
     }
 }
 
@@ -354,44 +364,44 @@
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(8, 5vw);
-    grid-gap: 1.5rem; 
+    grid-gap: 1.5rem;
   }
-  
+
   .gallery__img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    display: block; 
+    display: block;
   }
-  
+
   .gallery__item--1 {
     grid-column-start: 1;
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 3;
-  
+
     /** Alternative Syntax **/
     /* grid-column: 1 / span 2;  */
     /* grid-row: 1 / span 2; */
   }
-  
+
   .gallery__item--2 {
     grid-column-start: 9;
     grid-column-end: 4;
     grid-row-start: 5;
     grid-row-end: 1;
-  
+
     /** Alternative Syntax **/
     /* grid-column: 3 / span 2;  */
     /* grid-row: 1 / span 2; */
   }
-  
+
   .gallery__item--3 {
     grid-column-start: 1;
     grid-column-end: 4;
     grid-row-start: 5;
     grid-row-end: 3;
-  
+
     /** Alternative Syntax **/
     /* grid-column: 5 / span 4;
     grid-row: 1 / span 5; */
@@ -402,24 +412,24 @@
     position:relative;
     animation:animateleft 3s;
   }
-  @keyframes 
-    animateleft{from{left:-50px;opacity:0} 
+  @keyframes
+    animateleft{from{left:-50px;opacity:0}
     to{left:0;opacity:1}
   }
   .animate_right{
     position:relative;
     animation:animateright 3s;
   }
-  @keyframes 
-    animateright{from{right:-50px;opacity:0} 
+  @keyframes
+    animateright{from{right:-50px;opacity:0}
     to{right:0;opacity:1}
   }
   .animate_bottom{
     position:relative;
     animation:animatebottom 3s;
   }
-  @keyframes 
-    animatebottom{from{bottom:-50px;opacity:0} 
+  @keyframes
+    animatebottom{from{bottom:-50px;opacity:0}
     to{bottom:0;opacity:1}
   }
 
@@ -429,13 +439,13 @@
   .animate_delay-2{
     animation-delay: 0.5s;
   }
- 
+
 
   /* *********************about us **************** */
    .aboutus{
     margin-top: -20px!important;
-    
-  } 
+
+  }
 
 
   /* Style the tab */
@@ -450,7 +460,7 @@
       font-size: 16px;
         color: var(--main-p);
   }
-  
+
   /* Style the buttons inside the tab */
   .tab button {
     background-color: inherit;
@@ -461,15 +471,15 @@
     /*transition: 0.3s;*/
     font-size: 17px;
   }
-  
+
   /* Change background color of buttons on hover */
-  
-  
+
+
   /* Create an active/current tablink class */
   .tab button.active {
     border-bottom: 3px solid rgb(2, 98, 143);
   }
-  
+
   /* Style the tab content */
   .tabcontent {
     display: none;
@@ -485,9 +495,9 @@
   .tabcontent {
     animation: fadeEffect 2s; /* Fading effect takes 1 second */
   }
-  
+
   /* Go from zero to full opacity */
-  @keyframes fadeEffect{from{bottom:-50px;opacity:0} 
+  @keyframes fadeEffect{from{bottom:-50px;opacity:0}
   to{bottom:0;opacity:1}}
 
 
@@ -499,22 +509,22 @@
     padding: 20px;
     width: 100%;
     font-size: 20px;
-    background-color: rgba(255, 255, 255, .25);  
+    background-color: rgba(255, 255, 255, .25);
     backdrop-filter: blur(60px);
     border: none;
     border-radius: 50px;
     color: #002533;
 }
 
-    
+
 /* -------------------------------- Our People --------------------------------*/
 /* Style the tab */
 .people-tab {
     overflow: hidden;
-    background-color: rgba(255, 255, 255, 0.015);  
+    background-color: rgba(255, 255, 255, 0.015);
     backdrop-filter: blur(10px);
   }
-  
+
   /* Style the buttons inside the tab */
   .people-tab button {
     background-color: inherit;
@@ -532,16 +542,16 @@
   .people-tab button:last-child {
     border-right: none;
   }
-  
+
   /* Change background color of buttons on hover */
   .people-tab button:hover {
-    background-color: rgba(63,169,245, 0.5);  
+    background-color: rgba(63,169,245, 0.5);
     backdrop-filter: blur(10px);
   }
-  
+
   /* Create an active/current tablink class */
   .people-tab button.active {
-    background-color: rgba(63,169,245, 0.5);  
+    background-color: rgba(63,169,245, 0.5);
     backdrop-filter: blur(10px);
   }
   .people-tab h5{
@@ -556,7 +566,7 @@
     padding: 0;margin: 0;
     color: #fff;
 }
-  
+
   /* Style the tab content */
   .people-tabcontent {
     display: none;
@@ -567,7 +577,7 @@
     color: #fff!important;
     width:100%;
   }
-  
+
   .people-tablinks .remove-line-height{
       line-height: 150%;
   }
@@ -576,7 +586,7 @@
     color: #424242!important;
     font-weight: 600;
   }
-  
+
   .remove-line-height:before {content:'';
     display:block;
     margin:1em 0;
@@ -612,7 +622,7 @@
 
   .contact-info h5{
     padding-top: 4px;
-    
+
   }
 
 
@@ -631,16 +641,16 @@
     width: 100%;
     overflow-x: scroll;
   }
-  
+
   #referance td, #referance th {
     border: 1px solid #ddd;
     padding: 8px;
   }
-  
+
   #referance tr:nth-child(even){background-color: #f2f2f2;}
-  
+
   #referance tr:hover {background-color: #ddd;}
-  
+
   #referance th {
     padding-top: 12px;
     padding-bottom: 12px;
@@ -656,7 +666,7 @@
     background-position:0 100% !important;
     background-size:50% !important;
     background-repeat:no-repeat; */
-    
+
     background: url(images/bg/aboutus.jpg);
     }
     .about1 li{
@@ -676,19 +686,19 @@
       margin-top: 15vh;
     }
   .about2{
-    background: 
+    background:
     linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.5) 95%, rgba(255,255,255,0.8) 100%),
     url(images/bg/ourteam.jpg);
-    
+
     }
     .about1 li{
         color: #000;
     }
   .about3{
-    background: 
+    background:
     /* linear-gradient(90deg, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0.7) 50%, rgba(255,255,255,0) 100%),
-    */url(images/bg/partner.jpg); 
-    
+    */url(images/bg/partner.jpg);
+
     }
     .about1 li{
         color: #000;
@@ -791,7 +801,7 @@
 }
 .side_hmenu .title_hmenu {
   top: 0px;
-  position: absolute; 
+  position: absolute;
   right: -79px;
   font-weight: 400;
   font-size: 16px;
@@ -823,7 +833,7 @@
   color: #aaa;
 }
  /*                      SLider *********************************************************** */
- 
+
  @keyframes slidy {
   0% {
     left: 0%;
@@ -880,4 +890,106 @@
 .item img {
   width: 100%;
   height: auto;
+}
+
+/* ********************************* Ref Table ********************************** */
+.ref-table{
+  clear: both;	
+	width:100%;
+  background-color: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(25px);
+  border-radius: 25px;
+}
+
+
+
+.reft{
+  width: 100%;
+  border-radius: 25px;
+}
+
+
+.table-scroll{
+  /*width:100%; */
+  display: block;
+  empty-cells: show;
+  
+  /* Decoration */
+  border-spacing: 0;
+  /* border: 1px solid; */
+  
+}
+.table-scroll tr{
+  padding: 5px;
+}
+
+.table-scroll thead{
+  background-color: rgba(255, 255, 255, 0.6);
+  position:relative;
+  display: block;
+  
+  overflow-y: hidden;
+  border-radius: 25px 25px 0 0 ;
+  padding: 10px;
+}
+
+.table-scroll tbody{
+  /* Position */
+  display: block; position:relative;
+  width:100%; overflow-y:scroll;
+  /* Decoration */
+  border-top: 1px solid rgba(0,0,0,0.2);
+}
+
+.table-scroll tr{
+  
+  display:flex; 
+}
+
+
+.table-scroll td ,.table-scroll th{
+  flex-basis:100%;
+  flex-grow:2;
+  display: block;
+  padding: 1rem;
+  text-align:center;
+}
+
+/* Other options */
+
+.table-scroll.small-first-col td:first-child,
+.table-scroll.small-first-col th:first-child{
+  flex-basis:20%;
+  flex-grow:1;
+}
+
+.table-scroll tbody tr:nth-child(2n){
+  background-color: rgba(130,130,170,0.1);
+}
+
+.body-half-screen{
+  max-height: 60vh;
+}
+
+.small-col{flex-basis:10%;}
+ /* ------------------------ Scroll Behevior ------------------------  */
+.table-scroll> ::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+.table-scroll>::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+.table-scroll>::-webkit-scrollbar-thumb {
+  background: #5c5c5c; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.table-scroll>::-webkit-scrollbar-thumb:hover {
+  background: #3b3b3b; 
 }
