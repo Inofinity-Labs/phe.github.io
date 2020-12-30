@@ -69,7 +69,6 @@
   transform: translateY(-50%);
 }
 .vertical-center-hero {
-  margin-top: 20%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
@@ -185,7 +184,7 @@
 }
 .service3{
     background: 
-    linear-gradient(90deg, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0.7   ) 50%, rgba(255,255,255,0) 100%),
+    linear-gradient(90deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.4) 50%, rgba(255,255,255,0) 100%),
     url(images/bg/s5.jpg);
 }
 .service3 li{
@@ -825,8 +824,59 @@
 }
  /*                      SLider *********************************************************** */
  
+ @keyframes slidy {
+  0% {
+    left: 0%;
+  }
+  20% {
+    left: 0%;
+  }
+  25% {
+    left: -100%;
+  }
+  45% {
+    left: -100%;
+  }
+  50% {
+    left: -201%;
+  }
+  70% {
+    left: -201%;
+  }
+  75% {
+    left: -302%;
+  }
+  99% {
+    left: -302%;
+  }
+  100% {
+    left: -302%;
+  }
+}
 
- .ref-container{
-  position: absolute;
-  top: 10vh;
- }
+.container-slider {
+  overflow: hidden;
+  width: 600px;
+  margin-left: auto;
+  border-radius: 20px;
+}
+
+.slider {
+  position: relative;
+  width: 500%;
+  animation: 20s slidy infinite;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+.slider .item {
+  width: 20%;
+  height: auto;
+  display: inline-block;
+  position: inherit;
+}
+
+.item img {
+  width: 100%;
+  height: auto;
+}
