@@ -315,8 +315,4 @@
         xhttp.send();
         document.getElementById("inv").innerHTML = xhttp.responseText; 
     }
-
-
-
-
-      
+        
