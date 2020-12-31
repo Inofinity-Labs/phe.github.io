@@ -538,7 +538,7 @@ div.copy-text{
     padding: 20px;
     width: 100%;
     font-size: 20px;
-    background-color: rgba(255, 255, 255, .25);
+    background-color: rgba(90, 84, 84, 0.25);
     backdrop-filter: blur(60px);
     border: none;
     border-radius: 50px;
