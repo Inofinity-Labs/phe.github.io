@@ -85,7 +85,7 @@
 .list-item-custom{
         /* background: linear-gradient(-45deg, rgba(255,255,255,9) 0%, rgba(255,255,255,0.7) 100%); */
         background-color: rgba(41, 41, 41, 0.4);
-        backdrop-filter: blur(10px);
+        backdrop-filter: blur(50px);
         padding: 0 20px 0 20px;
         margin: 1rem 0;
         display: flex;
@@ -259,7 +259,6 @@
     background-color: rgba(255, 255, 255, .25);
     backdrop-filter: blur(60px);
     /* remove end*/
-
 } 
 div.copy-text{
   text-align: center;
@@ -424,16 +423,6 @@ div.copy-text{
     position:relative;
     animation:animateleft 3s;
   }
-
-  .animate_left2{
-      position:relative;
-      animation:animateleft 5s;
-  }
-  .animate_left3{
-        position:relative;
-        animation:animateleft 10s;
-  
-  }
   @keyframes
     animateleft{from{left:-50px;opacity:0}
     to{left:0;opacity:1}
@@ -441,10 +430,6 @@ div.copy-text{
   .animate_right{
     position:relative;
     animation:animateright 3s;
-  }
-  .animate_right1{
-    position:relative;
-    animation:animateright 15s;
   }
   @keyframes
     animateright{from{right:-50px;opacity:0}
@@ -464,9 +449,6 @@ div.copy-text{
   }
   .animate_delay-2{
     animation-delay: 0.5s;
-  }
-  .animate_delay-3{
-    animation-delay: 1s;
   }
 
 
@@ -538,7 +520,7 @@ div.copy-text{
     padding: 20px;
     width: 100%;
     font-size: 20px;
-    background-color: rgba(90, 84, 84, 0.25);
+    background-color: rgba(255, 255, 255, .25);
     backdrop-filter: blur(60px);
     border: none;
     border-radius: 50px;
@@ -726,7 +708,7 @@ div.copy-text{
     }
   .about2{
     background:
-    linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(255, 255, 255, 0.22) 95%, rgba(255,255,255,0.8) 120%),
+    linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.5) 95%, rgba(255,255,255,0.8) 100%),
     url(images/bg/ourteam.jpg);
 
     }
@@ -908,9 +890,7 @@ div.copy-text{
   width: 600px;
   height: 300px;
   margin-left: auto;
-  -webkit-box-shadow: 8px -4px 41px -1px rgba(0,0,0,0.75);
-  -moz-box-shadow: 8px -4px 41px -1px rgba(0,0,0,0.75);
-  box-shadow: 8px -4px 41px -1px rgba(0,0,0,0.75);
+  border-radius: 20px;
 }
 
 .slider {
@@ -1085,4 +1065,3 @@ div.copy-text{
     margin: 6px 0;
     padding: 0px 6px;
   }
-
