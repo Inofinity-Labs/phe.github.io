@@ -1030,7 +1030,7 @@
             <script src="include_sectors.js"></script>
 
             <script>
-
+<<<<<<< HEAD
                 document.onreadystatechange = function () {
                     var state = document.readyState
                     if (state == 'interactive') {
@@ -1062,8 +1062,38 @@
                     }
                     document.getElementById(cityName).style.display = "block";
                     evt.currentTarget.className += " active";
+=======
+      document.onreadystatechange = function () {
+        var state = document.readyState;
+        if (state == "interactive") {
+          document.getElementById("contents").style.visibility = "hidden";
+        } else if (state == "complete") {
+          setTimeout(function () {
+            document.getElementById("interactive");
+            document.getElementById("load").style.visibility = "hidden";
+            document.getElementById("contents").style.visibility = "visible";
+          }, 1000);
+        }
+      };
+            </script>
 
+            <script>
+      //script for tabs
+      function openCity(evt, cityName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].className = tablinks[i].className.replace(" active", "");
+>>>>>>> c4761c9b0542e9b915d417b0b4b464b5624be152
                 }
+                document.getElementById(cityName).style.display = "block";
+                evt.currentTarget.className += " active";
+      }
+
       // Get the element with id="defaultOpen" and click on it
       //document.getElementById("defaultOpen").click();
             </script>
