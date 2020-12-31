@@ -817,7 +817,7 @@
   font-size: 16px;
   background-color: #26ACE3;
   color:#fff;
-  padding: 15px;
+  padding: 10px 25px;
 }
 
 .side_hmenu .nav {
@@ -1045,4 +1045,12 @@
   /* Create an active/current tablink class */
   .tab-table button.active {
     background-color: rgba(64, 153, 255, 0.4);
+  }
+
+ .hamburger-menuc {
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    margin: 6px 0;
+    padding: 0px 6px;
   }
