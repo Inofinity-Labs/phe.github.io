@@ -119,7 +119,7 @@
     border-bottom: 10px solid #33D266;
 }
 .colorfac708:hover{
-    border-bottom: 10px solid #fac708;
+    border-bottom: 10px solid #BF8641;
 }
 .list-item-custom a ,.textl{
     color: #477EEB;
@@ -250,8 +250,18 @@
     transform: scale(0.9);
 }
 
-.design_footer{
-    padding-top: 100px;
+ .design_footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    
+    /* remove this if footer bar is not wanted*/
+    background-color: rgba(255, 255, 255, .25);
+    backdrop-filter: blur(60px);
+    /* remove end*/
+} 
+div.copy-text{
+  text-align: center;
 }
 
 .text_white{
@@ -279,7 +289,7 @@
 }
 
 .gohome li {
-    list-style-type: none;
+    list-style-image: url('images/assets/arrow.png');
     font-size: 18px;
 }
 
@@ -301,13 +311,7 @@
     z-index: 1;
     padding-top: 30px;
 }
-.ref-back h3{display: inline;}
-.ref-back{
-  position: absolute;
-  top: -26vh;
-  display: inline;
-  
-}
+
 
 @media only screen and (max-width: 600px) {
     .goback{
@@ -326,6 +330,13 @@
 .section .background-page, .section .content, .section .container {
     text-align: left !important;
 }
+}
+
+.ref-back h3{display: inline;}
+.ref-back{
+  position: absolute;
+  top: 0;
+  display: inline; 
 }
 .ref-back{
   margin-top: 50px;
@@ -817,7 +828,7 @@
   font-size: 16px;
   background-color: #26ACE3;
   color:#fff;
-  padding: 15px;
+  padding: 10px 25px;
 }
 
 .side_hmenu .nav {
@@ -982,12 +993,12 @@
   max-height: 60vh;
 }
 .table-head{
-  background-color: #26ade354;
+  background-color: #3f3f3f54;
   border-radius: 10px 10px 0 0 ;
   
 }
 .table-shead{
-  background-color: #26ade354;
+  background-color: #3f3f3f54;
   border-radius: 10px;
 }
 
@@ -1044,5 +1055,13 @@
 
   /* Create an active/current tablink class */
   .tab-table button.active {
-    background-color: rgba(64, 153, 255, 0.4);
+    background-color: rgba(201, 201, 201, 0.808);
+  }
+
+ .hamburger-menuc {
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    margin: 6px 0;
+    padding: 0px 6px;
   }

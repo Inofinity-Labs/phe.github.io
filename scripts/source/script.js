@@ -1113,7 +1113,7 @@ function isScrollView(t) {
         });
 
         //LOADER
-        $('#preloader').fadeOut(300);
+        $('#preloader').fadeOut(100);
 
         //PAGE SCROLL
         var cnt_title = $(".header-slider .container,.header-video .container,.header-title .container,.header-animation .container");
