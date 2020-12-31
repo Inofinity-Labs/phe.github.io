@@ -165,7 +165,7 @@
 .service1{
     background:
     linear-gradient(90deg, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0.7) 50%, rgba(255,255,255,0) 100%),
-    url(images/bg/hydro.jpg);
+    url(images/bg/hydronew.jpg);
     background-size: cover;
     backdrop-filter: blur(10px);
 
@@ -697,7 +697,7 @@
   .about3{
     background:
     /* linear-gradient(90deg, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0.7) 50%, rgba(255,255,255,0) 100%),
-    */url(images/bg/partner.jpg);
+    */url(images/bg/partnersnew.jpg);
 
     }
     .about1 li{
