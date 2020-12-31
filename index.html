@@ -164,28 +164,45 @@
                 </div>
 
                 <div class="mobile-main-service">
-                    <div class="row text-center" style="padding: 2rem 0 5rem ;">
+                    <div class="row text-center">
 
-                        <div class="list-item list-item-custom color43B8E anima">
-                            <a href="#service1" id="slide1/1"><img src="images/logo/hydro.png" width="80px"><br><label
-                                    class="text-s" style="color: #43B8EC">HydroPower</label></a>
+                        <div class="col-sm-6">
+                            <div class="list-item list-item-custom color43B8E anima">
+                                <a href="#service1" id="slide1/1"><img src="images/logo/hydro.png" width="60px"><br><label
+                                        class="text-s" style="color: #43B8EC">HydroPower</label></a>
+                            </div>
                         </div>
-                        <div class="list-item list-item-custom color5AE531 anima">
-                            <a href="#service2"><img src="images/logo/windv2.png" width="80px"><br><label class="text-s"
-                                    style="color: #5AE531">Wind Power</label></a>
+                        <div class="col-sm-6">
+                            <div class="list-item list-item-custom color5AE531 anima">
+                                <a href="#service2"><img src="images/logo/windv2.png" width="60px"><br><label class="text-s"
+                                        style="color: #5AE531">Wind Power</label></a>
+                            </div>
                         </div>
-                        <div class="list-item list-item-custom colorFCD716 anima">
-                            <a href="#service3"><img src="images/logo/biov2.png" width="80px"><br><label class="text-s "
-                                    style="color: #FCD716">Biomass</label></a>
+                    </div>
+                    <div class="row text-center">
+
+                        <div class="col-sm-6">
+                            <div class="list-item list-item-custom colorFCD716 anima">
+                                <a href="#service3"><img src="images/logo/biov2.png" width="60px"><br><label class="text-s "
+                                        style="color: #FCD716">Biomass</label></a>
+                            </div>
                         </div>
-                        <div class="list-item list-item-custom color33D266 anima">
-                            <a href="#service4"><img src="images/logo/solar5.png" width="80px"><br><label
-                                    class="text-s " style="color: #33D266">Solar Power</label></a>
+                        <div class="col-sm-6">
+                            <div class="list-item list-item-custom color33D266 anima">
+                                <a href="#service4"><img src="images/logo/solar5.png" width="60px"><br><label
+                                        class="text-s " style="color: #33D266">Solar Power</label></a>
+                            </div>
                         </div>
-                        <div class="list-item list-item-custom colorfac708 anima">
-                            <a href="#service5"><img src="images/logo/inv2.png" width="80px"><br><label class="text-s "
-                                    style="color: #fac708">Solar Power</label></a>
+
+                    </div>
+                    <div class="row text-center">
+                        <div class="col-sm-12">
+                            <div class="list-item list-item-custom colorfac708 anima">
+                                <a href="#service5"><img src="images/logo/inv2.png" width="60px"><br><label class="text-s "
+                                        style="color: #fac708">Solar Power</label></a>
+                            </div>
                         </div>
+                        
 
                     </div>
                 </div>
@@ -936,7 +953,22 @@
     </script>
 
     
-
+    <script>
+        function projectTable(evt, ProjectName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent-project");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks-project");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(ProjectName).style.display = "block";
+        evt.currentTarget.className += " active";
+        }
+    </script>
+    
 </body>
 
 </html>
