@@ -443,7 +443,7 @@ div.copy-text{
   }
   .animate_right1{
     position:relative;
-    animation:animateright 20s;
+    animation:animateright 15s;
   }
   @keyframes
     animateright{from{right:-50px;opacity:0}
@@ -465,7 +465,7 @@ div.copy-text{
     animation-delay: 0.5s;
   }
   .animate_delay-3{
-    animation-delay: 1.5s;
+    animation-delay: 1s;
   }
 
 
