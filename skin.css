@@ -474,7 +474,7 @@ header.font-13 .navbar-nav > li > a {
 }
 
 .side-menu i {
-    color: rgba(97, 97, 97, 0.25);
+    color: #616161;
 }
 
 .side-menu-fixed .bottom-area.text-center {
@@ -1843,8 +1843,8 @@ footer .container, .footer-parallax .container {
 
 footer .copy-row {
     background: #484848;
-    border-top: 1px solid rgba(255, 255, 255, 0.08);
-    padding: 27px 15px 25px 15px;
+    border-top: 2px solid #26ACE3;
+    padding: 10px 10px 10px 10px;
 }
 
 .input-group > input {

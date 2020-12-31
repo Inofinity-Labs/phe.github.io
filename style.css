@@ -1830,6 +1830,15 @@ footer .social-group i {
 .copy-row .copy-text {
     font-size: 12px;
     line-height: 20px;
+    text-align: right;
+    color:  #d6d6d6;
+}
+
+.copy-row .copy-text1 {
+    font-size: 12px;
+    line-height: 20px;
+    text-align: left;
+    color:  #d6d6d6;
 }
 
 .copy-row .nav {
