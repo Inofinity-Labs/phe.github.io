@@ -464,6 +464,9 @@ div.copy-text{
   .animate_delay-2{
     animation-delay: 0.5s;
   }
+  .animate_delay-3{
+    animation-delay: 1.5s;
+  }
 
 
   /* *********************about us **************** */
