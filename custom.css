@@ -515,6 +515,16 @@
     border-radius: 50px;
     color: #002533;
 }
+.ref-pro-a{
+  padding: 20px 40px;
+  width: 100%;
+  font-size: 20px;
+  background-color: rgba(255, 255, 255, .25);
+  backdrop-filter: blur(60px);
+  border: none;
+  border-radius: 50px;
+  color: #002533!important;
+}
 
 
 /* -------------------------------- Our People --------------------------------*/
@@ -893,6 +903,9 @@
 }
 
 /* ********************************* Ref Table ********************************** */
+.table-container{
+  min-height: 1024vh;
+}
 .ref-table{
   clear: both;	
 	width:100%;
@@ -900,8 +913,6 @@
   backdrop-filter: blur(25px);
   border-radius: 25px;
 }
-
-
 
 .reft{
   width: 100%;
@@ -970,6 +981,15 @@
 .body-half-screen{
   max-height: 60vh;
 }
+.table-head{
+  background-color: #26ade354;
+  border-radius: 10px 10px 0 0 ;
+  
+}
+.table-shead{
+  background-color: #26ade354;
+  border-radius: 10px;
+}
 
 .small-col{flex-basis:10%;}
  /* ------------------------ Scroll Behevior ------------------------  */
@@ -993,3 +1013,36 @@
 .table-scroll>::-webkit-scrollbar-thumb:hover {
   background: #3b3b3b; 
 }
+
+ /* *********************************************** table tab ********************************* */
+  /* Style the tab */
+  .tab-table {
+    overflow: hidden;
+    /* border: 1px solid #ccc; */
+    /* background-color: rgba(0,0,0,0.1); */
+    background-color: rgba(255, 255, 255, .4);
+    backdrop-filter: blur(50px);
+  }
+
+ 
+
+  /* Style the buttons inside the tab */
+  .tab-table button {
+    background-color: rgba(255, 255, 255, .4);
+    backdrop-filter: blur(20px);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    border-radius: 10px;
+    width: calc(99% / 4);
+  }
+
+  /* Change background color of buttons on hover */
+
+
+  /* Create an active/current tablink class */
+  .tab-table button.active {
+    background-color: rgba(64, 153, 255, 0.4);
+  }
