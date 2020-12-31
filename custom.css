@@ -423,6 +423,16 @@ div.copy-text{
     position:relative;
     animation:animateleft 3s;
   }
+
+  .animate_left2{
+      position:relative;
+      animation:animateleft 5s;
+  }
+  .animate_left3{
+        position:relative;
+        animation:animateleft 10s;
+  
+  }
   @keyframes
     animateleft{from{left:-50px;opacity:0}
     to{left:0;opacity:1}
@@ -430,6 +440,10 @@ div.copy-text{
   .animate_right{
     position:relative;
     animation:animateright 3s;
+  }
+  .animate_right1{
+    position:relative;
+    animation:animateright 20s;
   }
   @keyframes
     animateright{from{right:-50px;opacity:0}
