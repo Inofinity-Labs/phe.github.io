@@ -85,7 +85,7 @@
 .list-item-custom{
         /* background: linear-gradient(-45deg, rgba(255,255,255,9) 0%, rgba(255,255,255,0.7) 100%); */
         background-color: rgba(41, 41, 41, 0.4);
-        backdrop-filter: blur(50px);
+        backdrop-filter: blur(10px);
         padding: 0 20px 0 20px;
         margin: 1rem 0;
         display: flex;
@@ -259,6 +259,7 @@
     background-color: rgba(255, 255, 255, .25);
     backdrop-filter: blur(60px);
     /* remove end*/
+
 } 
 div.copy-text{
   text-align: center;
@@ -1082,3 +1083,4 @@ div.copy-text{
     margin: 6px 0;
     padding: 0px 6px;
   }
+
