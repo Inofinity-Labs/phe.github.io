@@ -726,7 +726,7 @@ div.copy-text{
     }
   .about2{
     background:
-    linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.5) 95%, rgba(255,255,255,0.8) 100%),
+    linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(255, 255, 255, 0.22) 95%, rgba(255,255,255,0.8) 120%),
     url(images/bg/ourteam.jpg);
 
     }
@@ -908,7 +908,9 @@ div.copy-text{
   width: 600px;
   height: 300px;
   margin-left: auto;
-  border-radius: 20px;
+  -webkit-box-shadow: 8px -4px 41px -1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 8px -4px 41px -1px rgba(0,0,0,0.75);
+  box-shadow: 8px -4px 41px -1px rgba(0,0,0,0.75);
 }
 
 .slider {
