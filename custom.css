@@ -12,7 +12,7 @@
   }
   .hero-text{
     font-family: 'Raleway', sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 35px;
     display: inline-block;
     padding: 20px;
@@ -1069,4 +1069,16 @@
     background-color: #fff;
     margin: 6px 0;
     padding: 0px 6px;
+  }
+
+  .ref-bg{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 103%;
+    height:90vh;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.4);
+        backdrop-filter: blur(20px);
+    z-index: 1;
   }
