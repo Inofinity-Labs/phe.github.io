@@ -429,6 +429,10 @@
     position:relative;
     animation:animateright 3s;
   }
+  .animate_right1{
+    position:relative;
+    animation:animateright 15s;
+  }
   @keyframes
     animateright{from{right:-50px;opacity:0}
     to{right:0;opacity:1}
@@ -447,6 +451,9 @@
   }
   .animate_delay-2{
     animation-delay: 0.5s;
+  }
+  .animate_delay-3{
+    animation-delay: 1s;
   }
 
 
