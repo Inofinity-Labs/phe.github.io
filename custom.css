@@ -162,14 +162,16 @@
     color: #26ACE3 !important;
 }
 /* background for categories */
+.fullpage-inner-menu h5{
+  font-size: 20px;
+}
+
 .service1{
     background:
     linear-gradient(90deg, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0.5) 50%, rgba(255,255,255,0) 100%),
     url(images/bg/hydro.jpg);
     background-size: cover;
     backdrop-filter: blur(10px);
-
-
 }
 .service1 li{
     color: #000;
@@ -461,9 +463,7 @@
   /* *********************about us **************** */
    .aboutus{
     margin-top: -20px!important;
-
   }
-
 
   /* Style the tab */
 .tab {
@@ -523,20 +523,20 @@
   }
 
 .ref-pro{
-    padding: 20px;
-    width: 100%;
-    font-size: 20px;
-    background-color: rgba(255, 255, 255, .25);
-    backdrop-filter: blur(60px);
-    border: none;
-    border-radius: 50px;
-    color: #002533;
+  padding: 24px;
+  width: 100%;
+  font-size: 24px;
+  background-color: rgb(255 255 255 / 72%);
+  backdrop-filter: blur(60px);
+  border: none;
+  border-radius: 50px;
+  color: #002533;
 }
 .ref-pro-a{
   padding: 20px 40px;
   width: 100%;
-  font-size: 20px;
-  background-color: rgba(255, 255, 255, .25);
+  font-size: 21px;
+  background-color: rgb(255 255 255 / 72%);
   backdrop-filter: blur(60px);
   border: none;
   border-radius: 50px;
@@ -545,6 +545,11 @@
 
 
 /* -------------------------------- Our People --------------------------------*/
+.people-glass{
+  margin: 0 -6rem;
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(15px);
+}
 /* Style the tab */
 .people-tab {
     overflow: hidden;
@@ -598,8 +603,7 @@
   .people-tabcontent {
     display: none;
     padding: 0px 12px;
-    background-color: rgba(255, 255, 255, 0.15);
-    backdrop-filter: blur(15px);
+    
     /* text-align: left; */
     color: #fff!important;
     width:100%;
@@ -628,7 +632,11 @@
     width: auto;
     height: 60vh;
     padding: 15px 0px;
-    margin: 0;
+    margin: 0 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+
   }
   .leader-content{
     text-align: left;
@@ -768,7 +776,9 @@
 .social-group i{
   color:#fff!important;
 }
-
+ul.side-menu li a .side-menu-p{
+  font-size: 15px;
+}
 
 
 /* slide ************************************************** */
@@ -899,7 +909,7 @@
 .container-slider {
   overflow: hidden;
   width: 600px;
-  height: 300px;
+  height: 330px;
   margin-left: auto;
   border-radius: 20px;
 }
@@ -925,6 +935,10 @@
 }
 
 /* ********************************* Ref Table ********************************** */
+#myTable{
+  table-layout: auto;
+  width: 100%; border-collapse: collapse;
+}
 .table-container{
   min-height: 1024vh;
 }
