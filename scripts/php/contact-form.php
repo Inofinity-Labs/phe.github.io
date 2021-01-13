@@ -6,7 +6,7 @@ if (file_exists("../../../../../wp-load.php")) {
     $isWP = true;
 }
 
-$emailTo       = 'info@pacific.lk';
+$emailTo       = 'parakumbbb@gmail.com';
 $sender_email = 'contacts@framework-y.com';
 $subject = 'You received a new message';
 
