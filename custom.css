@@ -19,6 +19,8 @@
     border-radius: 10px;
     text-align:left;
   }
+  @media screen and (max-width: 992px) {.hero-text{font-size: 25px;}}
+  @media screen and (max-width: 600px) {.hero-text{font-size: 25px;text-align: center;}}
   .content{
       margin-top:60px!important;
   }
@@ -227,10 +229,26 @@
 }
 .icon-box-cell{
     width: 50px;
-    height:100px;}
+    height:100px;
+  }
+  @media screen and (max-width: 992px) {
+    .icon-box-cell{
+      width: 50px;
+      height:100px;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .icon-box-cell{
+      width: 50px;
+      height: 50px;
+    }
+    .icon-box-cell i{ 
+      padding: 5px;
+    }
+  }
 
 .icon-box-cell i{
-  background-color: rgba(255, 255, 255, .4);
+    background-color: rgba(255, 255, 255, .4);
     backdrop-filter: blur(20px);
     padding: 10px;
     border-radius: 10px;
@@ -238,6 +256,11 @@
 }
 .fullpage-varrow .fa-angle-down:before {
     color: #000;
+}
+@media screen and (max-width: 600px) {
+  .text-m{
+    width: 100vw;
+  }
 }
 
 
@@ -361,11 +384,13 @@
         flex-direction: row;
         justify-content: start;
         align-items: center;
-        height: 120px;
-        width: 200px;
+        height: 100px;
+        width: 180px;
         justify-content: center;
         justify-items: center;
         border-radius: 20px !important;
+        padding: 0;
+        margin: .5rem 0;
     }
 }
 
@@ -939,6 +964,7 @@ ul.side-menu li a .side-menu-p{
   table-layout: auto;
   width: 100%; border-collapse: collapse;
 }
+
 .table-container{
   min-height: 1024vh;
 }
@@ -995,20 +1021,24 @@ ul.side-menu li a .side-menu-p{
 
 
 .table-scroll td ,.table-scroll th{
-  flex-basis:100%;
-  flex-grow:2;
+  flex-basis:40%;
+  flex-grow:1;
   display: block;
   padding: 1rem;
   text-align:center;
 }
-
+.long-col{
+  flex-basis:100%!important;
+  text-align: left!important;
+}
+#scope-of-work{ text-align: center!important;}
 /* Other options */
 
-.table-scroll.small-first-col td:first-child,
+/* .table-scroll.small-first-col td:first-child,
 .table-scroll.small-first-col th:first-child{
   flex-basis:20%;
   flex-grow:1;
-}
+} */
 
 .table-scroll tbody tr:nth-child(2n){
   background-color: rgba(130,130,170,0.1);

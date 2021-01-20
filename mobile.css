@@ -1,0 +1,33 @@
+.margin-top-20{
+    margin-top:20vh;
+}
+.hero-logo{
+    width: 400px;
+}
+.slide{
+    
+  }
+  /* On screens that are 992px wide or less, the background color is blue */
+  @media screen and (max-width: 992px) {
+    .margin-top-20{
+        margin-top:0;
+    }
+ 
+  }
+  
+  /* On screens that are 600px wide or less, the background color is olive */
+  @media screen and (max-width: 600px) {
+    .margin-top-20{
+        margin-top: 10vh !important;
+    }
+    .slide{
+        height: 100vh;
+      }
+      .hero-logo{
+        width: 200px;
+    }
+  }
+
+ 
+  @media screen and (max-width: 992px) {}
+  @media screen and (max-width: 600px) {}
