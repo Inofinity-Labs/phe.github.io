@@ -1261,13 +1261,25 @@ ul.side-menu li a .side-menu-p{
 
   
   @media screen and (max-width: 600px) {
-    .footer{
+    .footer-base{
       width: 96vw;
+    }
+    .footer-base .copy-text1{
+      text-align: center;
+    }
+    .footer-base .copy-text{
+      text-align: center;
     }
   }
   @media screen and (max-width: 992px) {
-    .footer{
+    .footer-base{
       width: 96vw;
+    }
+    .footer-base .copy-text1{
+      text-align: center;
+    }
+    .footer-base .copy-text{
+      text-align: center;
     }
   }
 
