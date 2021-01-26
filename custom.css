@@ -199,7 +199,7 @@
 }
 .service4{
     background:
-    linear-gradient(90deg, rgba(255,255,255,0.4) 0%, rgba(255,255,255,0.3) 65%, rgba(255,255,255,0) 95%),
+    linear-gradient(90deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.5) 65%, rgba(255,255,255,0) 95%),
     url(images/bg/solar.jpg);
 }
 .service4 li{
